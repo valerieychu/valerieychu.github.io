@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/home.less';
+import '../styles/global.less';
 import divider from '../images/divider.svg';
 
 const Bio = () => {
