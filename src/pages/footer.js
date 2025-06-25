@@ -1,4 +1,11 @@
 import React from 'react';
+// import loadable from '@loadable/component';
+// // Dynamically load icons so they only import on the client:
+// const FaGithub = loadable(() => import('react-icons/fa').then(mod => mod.FaGithub));
+// const FaInstagram = loadable(() => import('react-icons/fa').then(mod => mod.FaInstagram));
+// const FaLinkedin = loadable(() => import('react-icons/fa').then(mod => mod.FaLinkedin));
+// const FaTwitter = loadable(() => import('react-icons/fa').then(mod => mod.FaTwitter));
+// const FaEnvelope = loadable(() => import('react-icons/fa').then(mod => mod.FaEnvelope));
 import {
   FaGithub,
   FaInstagram,
