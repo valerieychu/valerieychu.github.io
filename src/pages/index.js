@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Header from './header.js';
 import Bio from './home.js';
 import Footer from './footer.js';
 import '../styles/global.less';
@@ -7,6 +8,7 @@ const IndexPage = () => {
   return (
     <>
       <div className='page-container'>
+        <Header />
         <main>
           <Bio />
         </main>

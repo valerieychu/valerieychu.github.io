@@ -11,13 +11,8 @@ module.exports = {
       resolve: "gatsby-plugin-google-gtag",
       options: {
         trackingIds: [
-          "G-NVTZCHS43M", // Replace with your Google Analytics tracking ID
+          "G-NVTZCHS43M", 
         ],
-        // gtagConfig: {
-        //   optimize_id: "YOUR_OPTIMIZE_ID", // Optional
-        //   anonymize_ip: true,
-        //   cookie_expires: 0,
-        // },
         pluginConfig: {
           head: true,
           respectDNT: true,
@@ -37,22 +32,6 @@ module.exports = {
     "gatsby-transformer-remark",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    // {
-    //   resolve: "gatsby-source-filesystem",
-    //   options: {
-    //     name: "images",
-    //     path: "./src/images/",
-    //   },
-    //   __key: "images",
-    // },
-    // {
-    //   resolve: "gatsby-source-filesystem",
-    //   options: {
-    //     name: "pages",
-    //     path: "./src/pages/",
-    //   },
-    //   __key: "pages",
-    // },
   ],
 };
 //
