@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/header.less';
+// import { Link } from 'gatsby';
+import { navigate } from 'gatsby';
 
 const Header = () => {
   return (
@@ -10,7 +12,10 @@ const Header = () => {
       <div className='header-buttons'>
         <button className='work'>Work</button>
         <button className='storytelling'>Storytelling</button>
-        <button className='me'>Me</button>
+        <button className='me' onClick={() => navigate('/about')}>
+          Me
+        </button>
+        {/* <Link to="/about" className='me'>Me</Link> */}
       </div>
     </header>
   );
