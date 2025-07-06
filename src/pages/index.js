@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Header from './header.js';
-import Bio from './home.js';
+import Home from './home.js';
 import Footer from './footer.js';
 import '../styles/global.less';
 
@@ -10,7 +10,7 @@ const IndexPage = () => {
       <div className='page-container'>
         <Header />
         <main>
-          <Bio />
+          <Home />
         </main>
         <Footer />
       </div>

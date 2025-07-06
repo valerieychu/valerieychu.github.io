@@ -3,10 +3,15 @@ import '../styles/global.less';
 import '../styles/home.less';
 import image from '../images/valeriechu.png';
 import divider from '../images/divider.svg';
+import Header from './header';
+import Footer from './footer';
 
 const Home = () => {
   return (
     <>
+      {/* <Header /> */}
+      {/* Intro */}
+      {/* Intro */}
       {/* Intro */}
       <div className='intro'>
         <div className='centered-text'>
@@ -27,9 +32,16 @@ const Home = () => {
         <img className='image' src={image} alt='Image of Valerie Chu' />
       </div>
       <img src={divider} alt='divider' className='divider' />
+
+      {/* Selected Works */}
+      {/* Selected Works */}
       {/* Selected Works */}
       <div className='centered-text'>
         <h3 className='h3'>Select Works</h3>
+
+        {/* Scoreboard Project */}
+        {/* Scoreboard Project */}
+        {/* Scoreboard Project */}
         <h4 className='h4'>San Francisco Chronicle — Scoreboard Project</h4>
         <p className='paragraph'>
           The San Francisco Chronicle published two photo stories that portrayed
@@ -49,7 +61,6 @@ const Home = () => {
 
         <p className='paragraph'>
           <i>Process: </i>
-          <br />
           When creating the scoreboard component, I wanted to start by
           considering the history of old-school sports design. My mentor, Alex
           Fong, has a collection of newspaper designs from people including
@@ -103,16 +114,49 @@ const Home = () => {
 
         <video
           width='640'
-          height='360'
+          height='427'
           controls
           // autoPlay
           muted
           loop
-          style={{ maxWidth: '100%', borderRadius: '8px', marginBottom: '1rem' }}>
+          style={{
+            maxWidth: '100%',
+            borderRadius: '8px',
+            marginBottom: '1rem',
+          }}>
           <source src='/scoreboard-component.mp4' type='video/mp4' />
           Your browser does not support the video tag.
         </video>
+
+        {/* Investigative Project */}
+        {/* Investigative Project */}
+        {/* Investigative Project */}
+        <h4 className='h4'>San Francisco Chronicle — Investigative Story</h4>
+        <p className='paragraph'>
+          [Story not yet published] The San Francisco Chronicle
+        </p>
+
+        <p className='paragraph'>
+          {/* <span style={{ fontWeight: 'bold' }}>Tools used:</span>  */}
+          <i>Tools used: </i>
+          React, Figma, ArchieML, HTML, CSS, JavaScript
+        </p>
+
+        <p className='paragraph'>
+          <i>Process: </i>
+          Design inspo process
+        </p>
+        <p className='paragraph'>Design highlights</p>
+        <p className='paragraph'>Design use</p>
+
+        <button
+          className='view-this-project'
+          style={{ marginRight: '1rem' }}
+          onClick={() => window.open('https://www.sfchronicle.com/', '_blank')}>
+          This investigative story will be published later in 2025
+        </button>
       </div>
+      {/* <Footer /> */}
     </>
   );
 };

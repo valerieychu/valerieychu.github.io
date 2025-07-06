@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <header className='header'>
       <div className='header-name-position'>
-        <button className='header-name'>Valerie Chu</button>
+        <button className='header-name' onClick={() => navigate('/')}>
+          Valerie Chu
+        </button>
       </div>
       <div className='header-buttons'>
         <button className='work'>Work</button>
