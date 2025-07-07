@@ -133,13 +133,14 @@ const Home = () => {
         {/* Investigative Project */}
         <h4 className='h4'>San Francisco Chronicle — Investigative Story</h4>
         <p className='paragraph'>
-          [Story not yet published] The San Francisco Chronicle
+          [Story not yet published] I worked from conception to execution on a
+          long-term investigative project that will be published later in 2025.
         </p>
 
         <p className='paragraph'>
           {/* <span style={{ fontWeight: 'bold' }}>Tools used:</span>  */}
           <i>Tools used: </i>
-          React, Figma, ArchieML, HTML, CSS, JavaScript
+          React, Figma, GSAP, Illustrator, ArchieML, HTML, CSS, JavaScript
         </p>
 
         <p className='paragraph'>
@@ -160,15 +161,15 @@ const Home = () => {
         {/* LA/Bay Area Protests Project */}
         {/* LA/Bay Area Protests Project */}
         <h4 className='h4'>
-          San Francisco Chronicle — LA/SF Protests Photo Story
+          San Francisco Chronicle — Reusable video components
         </h4>
         <p className='paragraph'>
           San Francisco Chronicle photographers captured demonstrations
           throughout the Bay Area and Los Angeles of people protesting President
           Donald Trump’s immigration policies and the military parade held on
           his birthday. We already had a photo component that enabled us to to
-          add and design photos in this particular project template I set up,
-          but nothing compatible for short video components. Under breaking news
+          add and design photos in the template I set up for this project, but
+          we didn't have a compatible short video component. Under breaking news
           deadline, I took a horizontal video component from an existing code
           base I hadn’t worked with before and adapted it to this particular
           project template.
@@ -186,23 +187,23 @@ const Home = () => {
           story’s custom build, I immediately started working with people from
           the photo and video teams to lay out and design the photos in this
           story using the same custom ArchieML tags as other Chronicle photo
-          stories (ie. the photos in the scoreboard project). But we had a few
-          videos that captured key scenes at the protests — and we didn’t have
-          an existing video component that worked for this template — so
-          creating that became my main focus during the crunch period of
+          stories (ex. as seen in the photos in the scoreboard project). But we
+          had a few videos that captured key scenes at the protests — and we
+          didn’t have an existing video component that worked for this template
+          — so creating that became my main focus during the crunch period of
           assembling this story.
         </p>
         <p className='paragraph'>
           In a previous Chronicle project, we made a vertical video component
-          that drew data based on a video subsheet within a Google Sheet,
-          instead of being compatible with ArchieML/Google Docs. I imported
-          several files from that project into this one; edited them to make
-          them all work with ArchieML/Google Docs; changed the names of the
-          files and components to be more intuitive (ex. interviewvideo.js
-          became verticalvideohasaudio.js); renamed unintuitively named
-          components and relinked them; changed the color of the scrub bar to
-          our brand color; and changed the design of the video captions to be
-          text width and in the right typeface.
+          that drew data from a video subsheet within a Google Sheet, but it
+          wasn't compatible with ArchieML/Google Docs. I imported several files
+          from that project into this one; edited them to make them all work
+          with ArchieML/Google Docs; changed the names of the files and
+          components to be more intuitive (ex. interviewvideo.js became
+          verticalvideohasaudio.js); renamed unintuitively named components and
+          relinked them; changed the color of the scrub bar to our brand color;
+          and changed the design of the video captions to be text width and in
+          the right typeface.
         </p>
         <p className='paragraph'>
           Ultimately, I ended up creating a horizontal video component, a
@@ -225,19 +226,7 @@ const Home = () => {
           }>
           View this project
         </button>
-{/* 
-        <iframe
-          width='640'
-          height='427'
-          src='https://youtu.be/embed/oPsJiwtwxb4'
-          title='YouTube video player'
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowFullScreen
-          style={{
-            maxWidth: '100%',
-            borderRadius: '8px',
-            marginBottom: '1rem',
-          }}></iframe> */}
+
         <iframe
           width='640'
           height='360'
