@@ -225,22 +225,32 @@ const Home = () => {
           }>
           View this project
         </button>
-
-        {/* <video
+{/* 
+        <iframe
           width='640'
           height='427'
-          controls
-          // autoPlay
-          muted
-          loop
+          src='https://youtu.be/embed/oPsJiwtwxb4'
+          title='YouTube video player'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          allowFullScreen
           style={{
             maxWidth: '100%',
             borderRadius: '8px',
             marginBottom: '1rem',
-          }}>
-          <source src='/la-bay-area-protests.mp4' type='video/mp4' />
-          Your browser does not support the video tag.
-        </video> */}
+          }}></iframe> */}
+        <iframe
+          width='640'
+          height='360'
+          src='https://www.youtube.com/embed/oPsJiwtwxb4?si=LygNLsmEO-YP3Szz'
+          title='Photos and video show No Kings, ICE protests in Bay Area, Los Angeles'
+          frameborder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          referrerpolicy='strict-origin-when-cross-origin'
+          style={{
+            maxWidth: '100%',
+            marginBottom: '1rem',
+          }}
+          allowfullscreen></iframe>
       </div>
       {/* <Footer /> */}
     </>
