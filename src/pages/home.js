@@ -49,9 +49,9 @@ const Home = () => {
         </p>
         <p className='paragraph'>
           Before you go further, I just want to note that this website is
-          currently still under development. To see more of my work beyond the
-          Select Works section located on this home page, please visit my old
-          website.
+          currently still under development. After you've visited the Select
+          Works section located on this home page, to see more of my work,
+          please visit my old website.
         </p>
         <button
           className='view-this-project'
