@@ -8,23 +8,33 @@ const About = () => {
     <>
       <Header />
       <div className='centered-text'>
-        <h1>Me, Professionally</h1>
+        <h1>Me, professionally</h1>
         <p className='paragraph'>
-          Hi! I'm Valerie, a rising senior at Northwestern University exploring
-          the intersection of journalism, data science and design/development.
-          Some of my other passions include reading, photography, cello and
-          learning new languages.
+          Hi! I'm Valerie. If you've reached this Me section, you've likely seen
+          a bit of my work! But if not, here's a quick summary:
         </p>
         <p className='paragraph'>
-          I've previously interned at NASA, the San Francisco Chronicle, and
-          several other places. I've had experience in a variety of roles
-          including digital design/development, data analytics, database
-          marketing, political reporting and social media. Now, I want to use
-          those skills to dive into storytelling at the intersection of data
-          science, journalism and design/development.
+          I'm an aspiring data scientist who wants to use digital design/web
+          development to tell the story behind that data. I'm also a rising
+          senior at Northwestern University triple majoring in data science,
+          journalism and international studies.
         </p>
-        <h2 className='h2'>A summary of my experience</h2>
         <p className='paragraph'>
+          I'm a current NASA intern, a former San Francisco Chronicle intern,
+          and I've also been at several other places. You can see the full list
+          of my work experience below.
+        </p>
+        <p className='paragraph'>
+          In my free time, I love reading, playing cello, taking photographs of
+          my friends and family, and learning new languages.
+        </p>
+        <br />
+        <h2 className='h2'>Work experience, summarized</h2>
+        <p className='paragraph'>
+          • (June 2025 - September 2025) NASA - Data & Analytics Intern - JPL,
+          Pasadena, Calif.
+          <br />
+          <br />
           • (March 2025 - June 2025) San Francisco Chronicle - Digital Design
           Intern - San Francisco
           <br />
@@ -65,14 +75,6 @@ const About = () => {
           <br />
           <br />• (Jan. 2020 - June 2022) The Campanile - Managing Editor,
           School Board Correspondent, Staff Writer - Palo Alto, Calif.
-          <br />
-          <br />
-          To see my portfolio tailored for the Journalist of the Year
-          competition, which contains my pre-college work, visit here:
-          https://valerieychu.wixsite.com/website
-          <br />
-          <br />
-          To see my music experience, visit this link.
         </p>
       </div>
       <Footer />
