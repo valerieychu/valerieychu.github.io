@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/global.less';
 import Header from './header';
 import Footer from './footer';
+import divider from '../images/divider.svg';
 
 const About = () => {
   return (
@@ -28,7 +29,16 @@ const About = () => {
           In my free time, I love reading, playing cello, taking photographs of
           my friends and family, and learning new languages.
         </p>
-        <br />
+        <button
+          className='view-this-project'
+          style={{ marginRight: '1rem' }}
+          onClick={() =>
+            window.open('https://drive.google.com/file/d/1qtKck7eT0HMD2qHAqX7FDL3qFB3HZI4C/view?usp=sharing', '_blank')
+          }>
+          View my resume
+        </button>
+        <img src={divider} alt='divider' className='divider' />
+
         <h2 className='h2'>Work experience, summarized</h2>
         <p className='paragraph'>
           • (June 2025 - September 2025) NASA - Data & Analytics Intern - JPL,

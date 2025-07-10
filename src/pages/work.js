@@ -12,7 +12,7 @@ const Work = () => {
         <p className='paragraph'>
           [This website is currently still under development. To see more of my
           work beyond the Select Works section located on the home page,
-          please visit my old website.]
+          please visit my previous website.]
         </p>
         <button
           className='view-this-project'
@@ -23,7 +23,7 @@ const Work = () => {
               '_blank',
             )
           }>
-          My Old Website
+          My previous website
         </button>
       </div>
       <Footer />

@@ -51,7 +51,7 @@ const Home = () => {
           Before you go further, I just want to note that this website is
           currently still under development. After you've visited the Select
           Works section located on this home page, to see more of my work,
-          please visit my old website.
+          please visit my previous website.
         </p>
         <button
           className='view-this-project'
@@ -59,7 +59,7 @@ const Home = () => {
           onClick={() =>
             window.open('https://valerieychu.myportfolio.com/', '_blank')
           }>
-          My Old Website
+          My previous website
         </button>
       </div>
 

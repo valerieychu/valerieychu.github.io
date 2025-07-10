@@ -16,7 +16,7 @@ const Storytelling = () => {
         <p className='paragraph'>
           [This website is currently still under development. To see more of my
           storytelling beyond the Select Works section located on the home
-          page, please visit my old website.]
+          page, please visit my previous website.]
         </p>
         <button
           className='view-this-project'
@@ -24,7 +24,7 @@ const Storytelling = () => {
           onClick={() =>
             window.open('https://valerieychu.myportfolio.com/', '_blank')
           }>
-          My Old Website
+          My previous website
         </button>
       </div>
       <Footer />
