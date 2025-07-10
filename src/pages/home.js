@@ -42,7 +42,28 @@ const Home = () => {
         <img className='image' src={image} alt='Image of Valerie Chu' />
       </div>
       <img src={divider} alt='divider' className='divider' />
+      <div className='centered-text'>
+        <h3 className='h3'>A Quick Note</h3>
+        <p className='paragraph'>
+          Hi! Thank you so much for checking out my website!
+        </p>
+        <p className='paragraph'>
+          Before you go further, I just want to note that this website is
+          currently still under development. To see more of my work beyond the
+          Select Works section located on this home page, please visit my old
+          website.
+        </p>
+        <button
+          className='view-this-project'
+          style={{ marginRight: '1rem' }}
+          onClick={() =>
+            window.open('https://valerieychu.myportfolio.com/', '_blank')
+          }>
+          My Old Website
+        </button>
+      </div>
 
+      <img src={divider} alt='divider' className='divider' />
       {/* Selected Works */}
       {/* Selected Works */}
       {/* Selected Works */}

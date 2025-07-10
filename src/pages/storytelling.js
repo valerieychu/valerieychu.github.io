@@ -15,7 +15,7 @@ const Storytelling = () => {
         </p>
         <p className='paragraph'>
           [This website is currently still under development. To see more of my
-          storytelling beyond the Selected Works section located on the home
+          storytelling beyond the Select Works section located on the home
           page, please visit my old website.]
         </p>
         <button

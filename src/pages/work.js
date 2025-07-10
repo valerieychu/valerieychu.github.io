@@ -11,7 +11,7 @@ const Work = () => {
         <h1>Work</h1>
         <p className='paragraph'>
           [This website is currently still under development. To see more of my
-          work beyond the Selected Works section located on the home page,
+          work beyond the Select Works section located on the home page,
           please visit my old website.]
         </p>
         <button
