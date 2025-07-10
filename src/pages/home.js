@@ -17,16 +17,26 @@ const Home = () => {
         <div className='centered-text'>
           <h1 className='h1'>Hi! I'm Valerie and I love storytelling.</h1>
           <h2 className='h2'>
-            I’m an aspiring digital designer and front-end web developer. I also
-            wrangle data, photograph and write.
+            I'm an aspiring data scientist who wants to use digital design/web
+            development to best tell the story behind that data.
+            {/* I’m an aspiring data scientist/digital designer/web developer. I also love reading,
+            photography and writing. */}
+            {/* I’m an aspiring digital designer and front-end web developer. I also
+            wrangle data, photograph and write. */}
           </h2>
           <h2 className='paragraph'>
-            I've previously interned at NASA, the San Francisco Chronicle, and
-            several other places. I've had experience in a variety of roles
-            including digital design/development, data analytics, database
-            marketing, political reporting and social media. Now, I want to use
-            those skills to dive into storytelling at the intersection of data
-            science, journalism and design/development.
+            Currently, I'm a data & analytics intern on NASA's Aerosciences
+            Evaluation and Test Capabilities team, where I focus on test
+            tracking for our wind tunnels.
+          </h2>
+          <h2 className='paragraph'>
+            I'm a 3x NASA intern, a former San Francisco Chronicle digital
+            design/development intern, and a former freelance Capitol/White
+            House photographer/reporter. I've had experience in eight
+            internships so far, focusing on digital design/development, data
+            analytics, database marketing, political reporting and social media.
+            Now, I want to use those skills to dive into storytelling at the
+            intersection of data science, journalism and design/development.
           </h2>
         </div>
         <img className='image' src={image} alt='Image of Valerie Chu' />
@@ -145,10 +155,84 @@ const Home = () => {
 
         <p className='paragraph'>
           <i>Process: </i>
-          Design inspo process
+          When creating this project, I knew I had to look at it from both a
+          product and storytelling perspective. It was a six part series
+          consisting of over 5,000 words per part, so it was critical to keep
+          readers engaged. With this in mind, and with the full creative control
+          my mentor gave me over the project, I began designing and coding it.
+          In particular, I focused on making two components.
         </p>
-        <p className='paragraph'>Design highlights</p>
-        <p className='paragraph'>Design use</p>
+        <p className='paragraph'>
+          The first was animating text messages. Text messages between the two
+          main characters in the story were central to the storytelling process
+          of this investigative piece, so I wanted to showcase the text messages
+          somehow in each part of the series. I started by texting back and
+          forth with my mentor, then studied how the text messages were sent and
+          appeared. (One interesting thing I never noticed before was that when
+          one person sends multiple texts, only the last text bubble gets an
+          attribution arrow.) After looking through numerous photos on Google
+          for additional text message bubble inspiration, I started designing a
+          layout in InDesign then moved it to Figma when I decided I wanted to
+          animate the text messages. After setting up the project within the
+          Chronicle dev rig and getting the story working with ArchieML, I
+          applied the typefaces, font colors and subtle gray-to-black background
+          gradient to the project. Then I began animating the text messages
+          using GSAP. It took a lot of YouTube videos, Googling, trial and
+          error, and talking out my process with my mentor — but I overcame the
+          learning curve and put together the animations! Along the way, I also
+          learned how to use Illustrator to make SVGs work for the text bubble
+          attributions and dived into dozens of niche Stack Overflow posts about
+          animating using GSAP with React.
+        </p>
+        <p className='paragraph'>
+          The second main element of the investigative project I focused on was
+          a way to keep readers engaged with the article. When I first read a
+          draft of the series in March, it was more than 30,000 words and took
+          me 1 hour 45 minutes to finish reading from start to finish without
+          breaks. While that was because I had the time to read it as part of
+          working on its design/development, I knew most people wouldn’t finish
+          reading the series in one continuous sitting. I needed to figure out
+          how readers would engage with the series, then incorporate both
+          storytelling features and product design to keep them hooked on the
+          story. I started by developing user personas with our audience in
+          mind, which comes from a wide range of backgrounds and with different
+          daily reading habits. The most viable idea emerged as a bookmark modal
+          — when the reader closes the tab or the app, their progress will be
+          automatically saved. No matter which device they continue reading on,
+          the page will resume from where they left off and a bookmark modal
+          will appear, offering a brief summary of the story so far. I designed
+          the bookmark modal and the user flow diagram for it using Figma. I
+          pulled the data for the bookmark modal (ex. Summary hed and summary
+          text applicable to each 25% of the story) from Google Sheets using
+          ArchieML. I played around with different ways of using autosave —
+          first, I tried calculating the scroll percentage and anchoring the
+          bookmark modal to certain percentages. Then my mentor and I decided to
+          make it more flexible, so we changed up our React hooks and used
+          BlueConic to create the autosave feature.
+        </p>
+        <p className='paragraph'>
+          I also prioritized both product design and accessibility when creating
+          the bookmark modal. The Continue Reading button on the left side of
+          the modal closes the bookmark modal and allows readers to pick up
+          where they left off. The Start Over button on the right side of the
+          modal deletes the bookmark/autosave progress and starts the reader
+          back at the top of the story (which is useful if more than one person
+          shares the same San Francisco Chronicle account). It’s also possible
+          for the reader to close the modal through clicking on the Continue
+          Reading button, the X button, Escape key or anywhere outside of the
+          modal itself. All San Francisco Chronicle products are also coded with
+          mobile-first design, all HTML tags are semantic, and all color
+          contrast and font sizes are chosen to be easily understood whether the
+          reader is using a screen reader or has color blindness.
+        </p>
+        <p className='paragraph'>
+          By the end of my internship, I had used far more useStates,
+          useEffects, useRefs and useContexts than I ever anticipated. Through
+          working on this project from conception to execution, I gained a deep
+          understanding of user design, product design and web
+          design/development, allowing me to help bring this investigative
+          series to life.
+        </p>
 
         <button
           className='view-this-project'
