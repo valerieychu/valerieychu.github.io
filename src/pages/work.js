@@ -3,26 +3,25 @@ import '../styles/global.less';
 import Header from './header';
 import Footer from './footer';
 
-const Storytelling = () => {
+const Work = () => {
   return (
     <>
       <Header />
       <div className='centered-text'>
-        <h1>Storytelling</h1>
-        <p className='paragraph'>
-          Data Visualization | Photojournalism | Design | Video | Writing |
-          UI/UX | Languages
-        </p>
+        <h1>Work</h1>
         <p className='paragraph'>
           [This website is currently still under development. To see more of my
-          storytelling beyond the Selected Works section located on the home
-          page, please visit my old website.]
+          work beyond the Selected Works section located on the home page,
+          please visit my old website.]
         </p>
         <button
           className='view-this-project'
           style={{ marginRight: '1rem' }}
           onClick={() =>
-            window.open('https://valerieychu.myportfolio.com/', '_blank')
+            window.open(
+              'https://valerieychu.myportfolio.com/',
+              '_blank',
+            )
           }>
           My Old Website
         </button>
@@ -32,4 +31,4 @@ const Storytelling = () => {
   );
 };
 
-export default Storytelling;
+export default Work;

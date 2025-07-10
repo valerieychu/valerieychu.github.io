@@ -12,8 +12,12 @@ const Header = () => {
         </button>
       </div>
       <div className='header-buttons'>
-        <button className='work'>Work</button>
-        <button className='storytelling' onClick={() => navigate('/storytelling')}>
+        <button className='work' onClick={() => navigate('/work')}>
+          Work
+        </button>
+        <button
+          className='storytelling'
+          onClick={() => navigate('/storytelling')}>
           Storytelling
         </button>
         <button className='me' onClick={() => navigate('/about')}>
