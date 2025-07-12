@@ -15,10 +15,13 @@ const About = () => {
           a bit of my work! But if not, here's a quick summary:
         </p>
         <p className='paragraph'>
-          I'm an aspiring data scientist who wants to use digital design/web
-          development to tell the story behind the data. I'm also a rising
-          senior at Northwestern University triple majoring in data science,
-          journalism and international studies.
+          I'm a storyteller passionate about working with data to design & code
+          digital products that tell a story. I'm also a rising senior at
+          Northwestern University triple majoring in data science, journalism
+          and international studies.
+          {/* I'm an aspiring data scientist who
+          wants to use digital design/web development to tell the story behind
+          the data.  */}
         </p>
         <p className='paragraph'>
           I'm a current NASA intern, a former San Francisco Chronicle intern,
