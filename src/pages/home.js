@@ -17,23 +17,23 @@ const Home = () => {
         <div className='centered-text'>
           <h1 className='h1'>Hi! I'm Valerie and I love storytelling.</h1>
           <h2 className='h2'>
-            I use data to design & code digital products that tell a story.
+            I use data to design and code digital products that tell a story.
           </h2>
           <h2 className='paragraph'>
             Currently, I'm a data & analytics intern on NASA's Aerosciences
             Evaluation and Test Capabilities team, where I focus on tracking our
             wind tunnel tests. I'm building a landing page that automatically
-            updates itself with wind tunnel test tracking data, issues, and
+            updates itself with wind tunnel test tracking data, issues and
             highlights that facility managers send in from NASA's twelve wind
             tunnels. Essentially, I'm doing a combination of data analytics,
-            SWE, UI/UX, and data visualization.
+            SWE, UI/UX and data visualization.
           </h2>
           <h2 className='paragraph'>
             I'm a three-time NASA intern, a former San Francisco Chronicle
             digital design/development intern, and a former freelance
             Congressional and White House photographer/reporter. I've loved
             every internship experience I've had so far, and I'm currently
-            looking for a place where I can work with data to design & code
+            looking for a place where I can work with data to design and code
             digital products that tell a story.
           </h2>
         </div>

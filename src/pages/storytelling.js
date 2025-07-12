@@ -14,9 +14,9 @@ const Storytelling = () => {
           UI/UX | Languages
         </p>
         <p className='paragraph'>
-          [This website is currently still under development. To see more of my
-          storytelling beyond the Select Works section located on the home
-          page, please visit my previous website.]
+          [This website is currently still under development. After you've
+          visited the Select Works section located on this home page, to see
+          more of my work, please visit my previous website.]
         </p>
         <button
           className='view-this-project'
