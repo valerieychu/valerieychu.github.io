@@ -160,7 +160,7 @@ const Home = () => {
         {/* Investigative Project */}
         {/* Investigative Project */}
         {/* Investigative Project */}
-        <h4 className='h4'>San Francisco Chronicle — Investigative Story</h4>
+        <h4 className='h4'>San Francisco Chronicle — Investigative Series</h4>
         <p className='paragraph'>
           [Story not yet published] I worked from conception to execution on a
           long-term investigative project that will be published later in 2025.
