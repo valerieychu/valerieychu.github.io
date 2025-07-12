@@ -17,26 +17,24 @@ const Home = () => {
         <div className='centered-text'>
           <h1 className='h1'>Hi! I'm Valerie and I love storytelling.</h1>
           <h2 className='h2'>
-            I'm an aspiring data scientist who wants to use digital design/web
-            development to best tell the story behind that data.
-            {/* I’m an aspiring data scientist/digital designer/web developer. I also love reading,
-            photography and writing. */}
-            {/* I’m an aspiring digital designer and front-end web developer. I also
-            wrangle data, photograph and write. */}
+            I use data to design & code digital products that tell a story.
           </h2>
           <h2 className='paragraph'>
             Currently, I'm a data & analytics intern on NASA's Aerosciences
-            Evaluation and Test Capabilities team, where I focus on test
-            tracking for our wind tunnels.
+            Evaluation and Test Capabilities team, where I focus on tracking our
+            wind tunnel tests. I'm building a landing page that automatically
+            updates itself with wind tunnel test tracking data, issues, and
+            highlights that facility managers send in from NASA's twelve wind
+            tunnels. Essentially, I'm doing a combination of data analytics,
+            SWE, UI/UX, and data visualization.
           </h2>
           <h2 className='paragraph'>
-            I'm a 3x NASA intern, a former San Francisco Chronicle digital
-            design/development intern, and a former freelance Capitol/White
-            House photographer/reporter. I've had experience in eight
-            internships so far, focusing on digital design/development, data
-            analytics, database marketing, political reporting and social media.
-            Now, I want to use those skills to dive into storytelling at the
-            intersection of data science, journalism and design/development.
+            I'm a three-time NASA intern, a former San Francisco Chronicle
+            digital design/development intern, and a former freelance
+            Congressional and White House photographer/reporter. I've loved
+            every internship experience I've had so far, and I'm currently
+            looking for a place where I can work with data to design & code
+            digital products that tell a story.
           </h2>
         </div>
         <img className='image' src={image} alt='Image of Valerie Chu' />

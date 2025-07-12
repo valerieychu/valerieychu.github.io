@@ -16,14 +16,14 @@ const About = () => {
         </p>
         <p className='paragraph'>
           I'm an aspiring data scientist who wants to use digital design/web
-          development to tell the story behind that data. I'm also a rising
+          development to tell the story behind the data. I'm also a rising
           senior at Northwestern University triple majoring in data science,
           journalism and international studies.
         </p>
         <p className='paragraph'>
           I'm a current NASA intern, a former San Francisco Chronicle intern,
-          and I've also been at several other places. You can see the full list
-          of my work experience below.
+          and I've also been at several other places. You can see my resume and
+          a summary of my work experience below.
         </p>
         <p className='paragraph'>
           In my free time, I love reading, playing cello, taking photographs of
@@ -33,7 +33,10 @@ const About = () => {
           className='view-this-project'
           style={{ marginRight: '1rem' }}
           onClick={() =>
-            window.open('https://drive.google.com/file/d/1qtKck7eT0HMD2qHAqX7FDL3qFB3HZI4C/view?usp=sharing', '_blank')
+            window.open(
+              'https://drive.google.com/file/d/1yc3N6qdtGwrpEkxt1WEjDuOI_hBEWu-l/view?usp=sharing',
+              '_blank',
+            )
           }>
           View my resume
         </button>
