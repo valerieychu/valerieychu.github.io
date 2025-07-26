@@ -15,18 +15,34 @@ const Home = () => {
       {/* Intro */}
       <div className='intro'>
         <div className='centered-text'>
-          <h1 className='h1'>Hi! I'm Valerie and I love storytelling.</h1>
+          <h1 className='h1' style={{ marginBottom: '1rem' }}>
+            Hi! I'm Valerie and I love storytelling.
+          </h1>
           <h2 className='h2'>
-            I use data to design and code digital products that tell a story.
+            <span
+              className='heart'
+              style={{ color: '#b76e79', fontSize: '16px' }}>
+              &#9829;
+            </span>{' '}
+            Data + Design + Code{' '}
+            <span
+              className='heart'
+              style={{ color: '#b76e79', fontSize: '16px' }}>
+              &#9829;
+            </span>
+          </h2>
+          <h2 className='paragraph' style={{ margin: '1rem 0' }}>
+            <em>~ Creating digital products that tell a story ~</em>
+            {/* ~ Creating digital products that tell a story ~ */}
           </h2>
           <h2 className='paragraph'>
-            Currently, I'm a data & analytics intern on NASA's Aerosciences
-            Evaluation and Test Capabilities team, where I focus on tracking our
-            wind tunnel tests. I'm building a landing page that automatically
-            updates itself with wind tunnel test tracking data, issues and
-            highlights that facility managers send in from NASA's twelve wind
-            tunnels. Essentially, I'm doing a combination of data analytics,
-            SWE, UI/UX and data visualization.
+            Currently, I'm interning on NASA's Aerosciences Evaluation and Test
+            Capabilities team, where I focus on tracking our wind tunnel tests.
+            I'm building a landing page that automatically updates with data
+            visualizations, issues and highlights based on reports facility
+            managers send in from NASA's twelve wind tunnels. Essentially, I'm
+            doing a combination of software development, UI/UX, data analytics
+            and data visualization.
           </h2>
           <h2 className='paragraph'>
             I'm a three-time NASA intern, a former San Francisco Chronicle
