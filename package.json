@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^5.2.6",
     "@loadable/component": "^5.16.7",
     "@mdx-js/react": "^2.3.0",
     "gatsby": "^5.14.1",
