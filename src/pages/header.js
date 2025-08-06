@@ -16,7 +16,7 @@ const Header = () => {
             Work
           </button>
           <div className='dropdown-content'>
-            <button onClick={() => navigate('/worksamples/worksample-scoreboard')}>
+            <button onClick={() => navigate('/work/scoreboard-project')}>
               Scoreboard Project
             </button>
             {/* Add more items here */}
