@@ -54,3 +54,43 @@
   gap: 1rem;
   font-size: 1.5rem;
 }
+
+///////////// Hover Styles /////////////
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    padding: 0.25rem;
+
+    button {
+      font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
+      width: 100%;
+      padding: 10px;
+      background: none;
+      border: none;
+      text-align: center;
+      // border-radius: 10px;
+      // border: 1px solid black;
+      transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: #b76e79;
+        border-color: #b76e79;
+      }
+    }
+  }
+
+  &:hover .dropdown-content {
+    display: block;
+  }
+}
