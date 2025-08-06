@@ -19,7 +19,9 @@ const Header = () => {
             <button onClick={() => navigate('/work/scoreboard-project')}>
               Scoreboard Project
             </button>
-            {/* Add more items here */}
+            <button onClick={() => navigate('/work/stalker-project')}>
+              Investigative Series
+            </button>
           </div>
         </div>
         <button
