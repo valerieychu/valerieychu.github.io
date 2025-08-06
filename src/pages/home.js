@@ -33,28 +33,33 @@ const Home = () => {
           </h2>
           <h2 className='paragraph' style={{ margin: '1rem 0' }}>
             <em>~ Creating digital products that tell a story ~</em>
-            {/* ~ Creating digital products that tell a story ~ */}
-          </h2>
-          <h2 className='paragraph'>
-            Currently, I'm interning on NASA's Aerosciences Evaluation and Test
-            Capabilities team, where I focus on tracking our wind tunnel tests.
-            I'm building a landing page that automatically updates with data
-            visualizations, issues and highlights based on reports facility
-            managers send in from NASA's twelve wind tunnels. Essentially, I'm
-            doing a combination of software development, UI/UX, data analytics
-            and data visualization.
-          </h2>
-          <h2 className='paragraph'>
-            I'm a three-time NASA intern, a former San Francisco Chronicle
-            digital design/development intern, and a former freelance
-            Congressional and White House photographer/reporter. I've loved
-            every internship experience I've had so far, and I'm currently
-            looking for a place where I can work with data to design and code
-            digital products that tell a story.
           </h2>
         </div>
         <img className='image' src={image} alt='Image of Valerie Chu' />
       </div>
+
+      <img src={divider} alt='divider' className='divider' />
+      <div className='centered-text'>
+        <h3 className='h3'>A Quick Intro</h3>
+        <p className='paragraph'>
+          As part of NASA's Aerosciences Evaluation and Test Capabilities
+          portfolio office, I focus on tracking our wind tunnel tests. I'm
+          building a landing page that automatically updates with data
+          visualizations, issues and highlights based on facility managers’
+          reports on NASA's twelve wind tunnels. Essentially, I'm a full-stack
+          developer/data scientist doing a combination of software development,
+          UI/UX and data science.
+        </p>
+        <p className='paragraph'>
+          I'm a three-time NASA intern, a former San Francisco Chronicle digital
+          design/development intern, and a former freelance Congressional and
+          White House photographer/reporter. I've loved every internship
+          experience I've had so far, and I'm currently looking for a place
+          where I can work with data to design and code digital products that
+          tell a story.
+        </p>
+      </div>
+
       <img src={divider} alt='divider' className='divider' />
       <div className='centered-text'>
         <h3 className='h3'>A Quick Note</h3>
