@@ -5,6 +5,14 @@ import image from '../images/valeriechu.png';
 import divider from '../images/divider.svg';
 import Header from './header';
 import Footer from './footer';
+import valerie11x11 from '../images/valerie11x11.jpeg';
+import valerie80x120 from '../images/valerie80x120.jpeg';
+import valeriecamera from '../images/valeriecamera.jpeg';
+import valeriegoddard from '../images/valeriegoddard.jpeg';
+import valeriesfchronicle from '../images/valeriesfchronicle.jpeg';
+import valeriewhitehouse from '../images/valeriewhitehouse.jpeg';
+import valeriegoldstone from '../images/valeriegoldstone.jpeg';
+
 
 const Home = () => {
   return (
@@ -58,6 +66,43 @@ const Home = () => {
           where I can work with data to design and code digital products that
           tell a story.
         </p>
+        <div className='imageslideshowwrapper'>
+          <img
+            className='imageslideshow'
+            src={valeriegoddard}
+            alt='Valerie at Wallops Flight Facility'
+          />
+          <img
+            className='imageslideshow'
+            src={valeriegoldstone}
+            alt='Valerie at Goldstone'
+          />
+          <img
+            className='imageslideshow'
+            src={valeriecamera}
+            alt='Valerie at the White House'
+          />
+          <img
+            className='imageslideshow'
+            src={valeriesfchronicle}
+            alt='Valerie at the San Francisco Chronicle'
+          />
+          {/* <img
+            className='imageslideshow'
+            src={valeriewhitehouse}
+            alt='Valerie at the White House'
+          /> */}
+          <img
+            className='imageslideshow'
+            src={valerie11x11}
+            alt='Valerie at Ames UPWT 11x11'
+          />
+          <img
+            className='imageslideshow'
+            src={valerie80x120}
+            alt='Valerie at NFAC 80x120'
+          />
+        </div>
       </div>
 
       <img src={divider} alt='divider' className='divider' />
