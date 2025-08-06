@@ -3,6 +3,7 @@ import Header from './header.js';
 import Home from './home.js';
 import Footer from './footer.js';
 import '../styles/global.less';
+import "@fontsource/open-sans";
 
 const IndexPage = () => {
   return (
