@@ -12,7 +12,7 @@ import valeriegoddard from '../images/valeriegoddard.jpeg';
 import valeriesfchronicle from '../images/valeriesfchronicle.jpeg';
 import valeriewhitehouse from '../images/valeriewhitehouse.jpeg';
 import valeriegoldstone from '../images/valeriegoldstone.jpeg';
-
+import ProjectCard from './projectcard';
 
 const Home = () => {
   return (
@@ -103,6 +103,22 @@ const Home = () => {
             alt='Valerie at NFAC 80x120'
           />
         </div>
+      </div>
+
+      <img src={divider} alt='divider' className='divider' />
+
+      <div className='centered-text'>
+        <h3 className='h3'>Select Works</h3>
+        <ProjectCard
+          image={valeriegoddard}
+          alt='Valerie at Wallops'
+          hed='Scoreboard Project'
+          subhed='San Francisco Chronicle'
+          description='A custom scoreboard component — Inspired by old-school sports design, I designed and coded a non-developer friendly scoreboard acts lets readers visually track games and scores within a photo story. Compatible with NBA, WNBA, MLB and NFL games.'
+          skills='React, Figma, ArchieML, HTML, CSS, JavaScript'
+          learnMoreUrl='/work/scoreboard-project'
+          viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/'
+        />
       </div>
 
       <img src={divider} alt='divider' className='divider' />
