@@ -11,27 +11,44 @@ const ProjectCard = ({
   skills,
   viewProjectUrl,
   learnMoreUrl,
-  videoUrl, // Add the videoUrl prop here
+  videoUrl,
+  videoSrc,
 }) => {
   return (
     <div className='projectcard-container'>
       <div className='projectcard-image'>
-        {/* Conditional rendering for image or video */}
-        {videoUrl ? (
+        {/* Conditional rendering for local video, iframe, or image */}
+        {videoSrc ? (
+          <video
+            width='640'
+            height='427'
+            controls
+            // autoPlay
+            muted
+            loop
+            style={{
+              maxWidth: '100%',
+              borderRadius: '8px',
+              marginBottom: '1rem',
+            }}>
+            <source src={videoSrc} type='video/mp4' />
+            Your browser does not support the video tag.
+          </video>
+        ) : videoUrl ? (
           <iframe
             width='640'
-            height='360'
-            src={videoUrl} // Use the videoUrl prop
-            title={alt} // Use the alt prop for the title
+            // height='360'
+            src={videoUrl}
+            title={alt}
             frameBorder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
             referrerPolicy='strict-origin-when-cross-origin'
             style={{
               maxWidth: '100%',
               marginBottom: '1rem',
+              height: '100%'
             }}
-            allowFullScreen
-          ></iframe>
+            allowFullScreen></iframe>
         ) : (
           <img src={image} alt={alt} />
         )}
@@ -47,16 +64,14 @@ const ProjectCard = ({
           {learnMoreUrl && (
             <button
               className='projectcard-button-learn-more'
-              onClick={() => window.open(learnMoreUrl, '_blank')}
-            >
+              onClick={() => window.open(learnMoreUrl, '_blank')}>
               Learn more
             </button>
           )}
           {viewProjectUrl && (
             <button
               className='projectcard-button-view-this-project'
-              onClick={() => window.open(viewProjectUrl, '_blank')}
-            >
+              onClick={() => window.open(viewProjectUrl, '_blank')}>
               View this project
             </button>
           )}

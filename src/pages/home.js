@@ -110,8 +110,8 @@ const Home = () => {
       <div className='centered-text'>
         <h3 className='h3'>Select Works</h3>
         <ProjectCard
-          image={valeriegoddard}
-          alt='Valerie at Wallops'
+          videoSrc='/scoreboard-component.mp4'
+          alt='A video demonstration of the scoreboard component.'
           hed='Scoreboard Project'
           subhed='San Francisco Chronicle'
           description='A custom scoreboard component — Inspired by old-school sports design, I designed and coded a non-developer friendly scoreboard acts lets readers visually track games and scores within a photo story. Compatible with NBA, WNBA, MLB and NFL games.'
