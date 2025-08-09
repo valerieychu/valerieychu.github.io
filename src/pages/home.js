@@ -119,6 +119,25 @@ const Home = () => {
           learnMoreUrl='/work/scoreboard-project'
           viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/'
         />
+        <ProjectCard
+          image={valeriesfchronicle}
+          alt='Valerie at the San Francisco Chronicle'
+          hed='Investigative Series'
+          subhed='San Francisco Chronicle'
+          description='One of the Chronicle’s biggest investigative series this year, to be published later in 2025 — I led the product design and development for this series. With 30,000+ words and five parts, I knew the reader experience was crucial to get right. I wireframed then coded this series, creating custom components such as text message animations and bookmarking features.'
+          skills='React, Figma, GSAP, Illustrator, ArchieML, HTML, CSS, JavaScript'
+          learnMoreUrl='/work/stalker-project'
+          viewProjectUrl='https://sfchronicle.com/'
+        />
+        <ProjectCard
+          videoUrl='https://www.youtube.com/embed/oPsJiwtwxb4?si=LygNLsmEO-YP3Szz'
+          hed='Reusable Video Components'
+          subhed='San Francisco Chronicle'
+          description='Adapting a video components from an existing codebase to a new project template under breaking news deadline — SF Chronicle photographers captured No Kings protests in photos and videos throughout the Bay Area and LA. I adapted video components to an existing photo story template under deadline for this story, which took the lead in our web traffic the Sunday after it was published.'
+          skills='React, ArchieML, HTML, CSS, JavaScript'
+          learnMoreUrl='/work/reusable-video-components'
+          viewProjectUrl='https://youtu.be/oPsJiwtwxb4?si=QBsb-J0o9gIiHSx2'
+        />
       </div>
 
       <img src={divider} alt='divider' className='divider' />
