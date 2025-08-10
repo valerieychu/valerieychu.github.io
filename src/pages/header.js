@@ -25,6 +25,9 @@ const Header = () => {
             <button onClick={() => navigate('/work/reusable-video-components')}>
               Reusable Video Components
             </button>
+            <button onClick={() => navigate('/work/nasa-lead-capture-forms')}>
+              NASA Lead Capture Forms
+            </button>
           </div>
         </div>
         <button

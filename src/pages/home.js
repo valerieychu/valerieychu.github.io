@@ -13,6 +13,12 @@ import valeriesfchronicle from '../images/valeriesfchronicle.jpeg';
 import valeriewhitehouse from '../images/valeriewhitehouse.jpeg';
 import valeriegoldstone from '../images/valeriegoldstone.jpeg';
 import ProjectCard from './projectcard';
+import aetccometestwithus from '../images/aetccometestwithus.jpg';
+import aetccomeworkwithus from '../images/aetccomeworkwithus.jpg';
+import aetcctwuform from '../images/aetcctwuform.png';
+import aetccwwuform from '../images/aetccwwuform.png';
+
+
 
 const Home = () => {
   return (
@@ -137,6 +143,16 @@ const Home = () => {
           skills='React, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/reusable-video-components'
           viewProjectUrl='https://youtu.be/oPsJiwtwxb4?si=QBsb-J0o9gIiHSx2'
+        />
+        <ProjectCard
+          image={aetccomeworkwithus}
+          alt='AETC Slideshow'
+          hed='NASA Lead Capture Forms'
+          subhed='NASA’s Aerosciences Evaluation and Test Capabilities (AETC) Portfolio Office'
+          description='Full-stack development for lead capture forms — For AETC’s exhibition at AIAA AVIATION 2024, we wanted to collect information from people interested in testing in our wind tunnel facilities or joining our team. I designed, coded, and deployed two data input forms for lead capture, working with complex callbacks to collect data and write to a database.'
+          skills='Python, SQL, GitLab, Adobe InDesign, Figma, Dash Mantine Components, Photoshop'
+          learnMoreUrl='/work/nasa-lead-capture-forms'
+          viewProjectUrl='https://adapt-public.aetc.appdat.jsc.nasa.gov/come-test-with-us'
         />
       </div>
 
