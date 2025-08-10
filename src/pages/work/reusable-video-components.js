@@ -17,9 +17,7 @@ const WorksampleReusableVideoComponents = () => {
         {/* LA/Bay Area Protests Project */}
         {/* LA/Bay Area Protests Project */}
         {/* LA/Bay Area Protests Project */}
-        <h4 className='h4'>
-          San Francisco Chronicle — Reusable video components
-        </h4>
+        <h4 className='h4'>San Francisco Chronicle</h4>
         <p className='paragraph'>
           San Francisco Chronicle photographers captured demonstrations
           throughout the Bay Area and Los Angeles of people protesting President

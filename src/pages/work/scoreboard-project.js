@@ -10,12 +10,14 @@ const WorksampleScoreboard = () => {
     <>
       <Header />
       <div className='centered-text'>
-        <h3 className='h3' style={{ marginTop: '2rem' }}>Scoreboard Project</h3>
+        <h3 className='h3' style={{ marginTop: '2rem' }}>
+          Scoreboard Project
+        </h3>
 
         {/* Scoreboard Project */}
         {/* Scoreboard Project */}
         {/* Scoreboard Project */}
-        <h4 className='h4'>San Francisco Chronicle — Scoreboard Project</h4>
+        <h4 className='h4'>San Francisco Chronicle</h4>
         <p className='paragraph'>
           The San Francisco Chronicle published two photo stories that portrayed
           key moments from the Golden State Warriors' games in the first round

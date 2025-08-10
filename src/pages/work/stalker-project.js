@@ -17,7 +17,7 @@ const WorksampleStalker = () => {
         {/* Investigative Project */}
         {/* Investigative Project */}
         {/* Investigative Project */}
-        <h4 className='h4'>San Francisco Chronicle — Investigative Series</h4>
+        <h4 className='h4'>San Francisco Chronicle</h4>
         <p className='paragraph'>
           [Story not yet published] I led the product design and development for
           one of the Chronicle’s biggest investigative series this year, to be
