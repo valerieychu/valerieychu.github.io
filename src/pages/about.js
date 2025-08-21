@@ -17,7 +17,7 @@ const About = () => {
         <p className='paragraph'>
           I'm a storyteller passionate about working with data to design and code
           digital products that tell a story. I'm also a rising senior at
-          Northwestern University triple majoring in data science, journalism
+          Northwestern University triple majoring in data science, journalism,
           and international studies.
           {/* I'm an aspiring data scientist who
           wants to use digital design/web development to tell the story behind

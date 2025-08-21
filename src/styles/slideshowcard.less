@@ -1,0 +1,123 @@
+///////////// Slideshow Card Container /////////////
+.projectcard-container {
+  display: flex;
+  flex-direction: column; // vertical for mobile
+  gap: 1.5rem;
+  align-items: flex-start;
+
+  font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
+  background-color: white;
+  text-align: left;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.projectcard-image {
+  width: 100%;
+  height: auto;
+
+  img, iframe, video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 0; // explicitly clear margin
+  }
+}
+
+.projectcard-content {
+  width: 100%;
+}
+
+.projectcard-hed {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin: 0;
+}
+
+.projectcard-subhed {
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  font-style: italic;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.projectcard-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.projectcard-skills {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.projectcard-button-container {
+  display: flex;
+  flex-direction: column; // stack buttons for mobile
+  gap: 0.75rem;
+}
+
+.projectcard-button-learn-more,
+.projectcard-button-view-this-project {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  width: 100%; // full-width buttons for mobile
+}
+
+.projectcard-button-learn-more:hover,
+.projectcard-button-view-this-project:hover {
+  color: #b76e79;
+  border-color: #b76e79;
+}
+
+///////////// Desktop (768px and up) /////////////
+
+@media (min-width: 768px) {
+  .projectcard-container {
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: nowrap; // prevent wrapping
+  }
+
+  .projectcard-image {
+    width: 50%; // make image responsive
+    max-width: 400px;
+    height: 250px;
+    // height: auto;
+    margin-bottom: 1rem;
+
+    img, iframe, video {
+      object-fit: cover;
+      max-height: 100%;
+    }
+  }
+
+  .projectcard-content {
+    width: calc(100% - 2rem);
+  }
+
+  .projectcard-button-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .projectcard-button-learn-more,
+  .projectcard-button-view-this-project {
+    width: auto;
+  }
+
+  .projectcard-hed {
+    font-size: 1.5rem;
+  }
+}

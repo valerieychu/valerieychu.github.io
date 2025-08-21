@@ -12,6 +12,7 @@ import valeriegoddard from '../images/valeriegoddard.jpeg';
 import valeriesfchronicle from '../images/valeriesfchronicle.jpeg';
 import valeriewhitehouse from '../images/valeriewhitehouse.jpeg';
 import valeriegoldstone from '../images/valeriegoldstone.jpeg';
+import valeriemirror from '../images/valeriechumirror.jpg';
 import ProjectCard from './projectcard';
 import aetccometestwithus from '../images/aetccometestwithus.jpg';
 import aetccomeworkwithus from '../images/aetccomeworkwithus.jpg';
@@ -116,6 +117,16 @@ const Home = () => {
       <div className='centered-text'>
         <h3 className='h3'>Select Works</h3>
         <ProjectCard
+          image={valeriemirror}
+          alt='Valerie takes a mirror pic.'
+          hed='This Portfolio Website'
+          subhed='Personal Project'
+          description='A custom website — wireframed, coded, and deployed a portfolio site from scratch. Selected all typefaces, did all the styling, and got everything running by myself. Used Gatsby and React.'
+          skills='React, Gatsby, GitHub, Figma, Website development, Website deployment'
+          // learnMoreUrl='/work/personal-portfolio'
+          viewProjectUrl='https://valerieychu.github.io/'
+        />
+        <ProjectCard
           videoSrc='/scoreboard-component.mp4'
           alt='A video demonstration of the scoreboard component.'
           hed='Scoreboard Project'
@@ -139,7 +150,7 @@ const Home = () => {
           videoUrl='https://www.youtube.com/embed/oPsJiwtwxb4?si=LygNLsmEO-YP3Szz'
           hed='Reusable Video Components'
           subhed='San Francisco Chronicle'
-          description='Adapting a video components from an existing codebase to a new project template under breaking news deadline — SF Chronicle photographers captured No Kings protests in photos and videos throughout the Bay Area and LA. I adapted video components to an existing photo story template under deadline for this story, which took the lead in our web traffic the Sunday after it was published.'
+          description='Adapting video components from an existing codebase to a new project template under breaking news deadline — SF Chronicle photographers captured No Kings protests in photos and videos throughout the Bay Area and LA. I adapted video components to an existing photo story template under deadline for this story, which took the lead in our web traffic the Sunday after it was published.'
           skills='React, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/reusable-video-components'
           viewProjectUrl='https://youtu.be/oPsJiwtwxb4?si=QBsb-J0o9gIiHSx2'
@@ -149,7 +160,7 @@ const Home = () => {
           alt='AETC Slideshow'
           hed='NASA Lead Capture Forms'
           subhed='NASA’s Aerosciences Evaluation and Test Capabilities (AETC) Portfolio Office'
-          description='Full-stack development for lead capture forms — For AETC’s exhibition at AIAA AVIATION 2024, we wanted to collect information from people interested in testing in our wind tunnel facilities or joining our team. I designed, coded, and deployed two data input forms for lead capture, working with complex callbacks to collect data and write to a database.'
+          description='Design and development for lead capture forms — For AETC’s exhibition at AIAA AVIATION 2024, we wanted to collect information from people interested in testing in our wind tunnel facilities or joining our team. I designed, coded, and deployed two data input forms for lead capture, working with complex callbacks to collect data and write to a database.'
           skills='Python, SQL, GitLab, Adobe InDesign, Figma, Dash Mantine Components, Photoshop'
           learnMoreUrl='/work/nasa-lead-capture-forms'
           viewProjectUrl='https://adapt-public.aetc.appdat.jsc.nasa.gov/come-test-with-us'
