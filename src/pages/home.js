@@ -121,7 +121,7 @@ const Home = () => {
           alt='Valerie takes a mirror pic.'
           hed='This Portfolio Website'
           subhed='Personal Project'
-          description='A custom website — wireframed, coded, and deployed a portfolio site from scratch. Selected all typefaces, did all the styling, and got everything running by myself. Used Gatsby and React.'
+          description='A custom website — I wireframed, coded, and deployed this portfolio site from scratch. I selected all typefaces, did all the styling, created all custom components in React, and got everything running by myself. Used Gatsby and React.'
           skills='React, Gatsby, GitHub, Figma, Website development, Website deployment'
           // learnMoreUrl='/work/personal-portfolio'
           viewProjectUrl='https://valerieychu.github.io/'
