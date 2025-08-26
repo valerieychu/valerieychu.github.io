@@ -4,7 +4,6 @@ import '../../styles/home.less';
 import divider from '../../images/divider.svg';
 import Header from './../header';
 import Footer from './../footer';
-// import ReturnHomeButton from './../returnhomebutton.js';
 
 const WorksampleScoreboard = () => {
   return (
@@ -102,7 +101,6 @@ const WorksampleScoreboard = () => {
           <source src='/scoreboard-component.mp4' type='video/mp4' />
           Your browser does not support the video tag.
         </video>
-        {/* <ReturnHomeButton /> */}
       </div>
       <Footer />
     </>

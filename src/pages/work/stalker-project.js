@@ -4,8 +4,7 @@ import '../../styles/home.less';
 import divider from '../../images/divider.svg';
 import Header from './../header';
 import Footer from './../footer';
-// import sfchroniclehome from '../../images/sfchroniclehome.png';
-// import ReturnHomeButton from './../returnhomebutton.js';
+import sfchroniclehome from '../../images/sfchroniclehome.png';
 
 const WorksampleStalker = () => {
   return (
@@ -120,12 +119,11 @@ const WorksampleStalker = () => {
           This investigative story will be published later in 2025
         </button>
 
-        {/* <img
+        <img
           style={{ maxWidth: '100%', margin: '1rem 0' }}
           src={sfchroniclehome}
           alt='San Francisco Chronicle home page'
-        /> */}
-        {/* <ReturnHomeButton /> */}
+        />
       </div>
       <Footer />
     </>

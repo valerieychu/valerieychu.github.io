@@ -7,6 +7,8 @@ import {
   FaTwitter,
   FaEnvelope,
 } from 'react-icons/fa';
+import ReturnHomeButton from '../pages/returnhomebutton';
+
 const Footer = () => {
   const [showIcons, setShowIcons] = useState(false);
 
@@ -59,6 +61,7 @@ const Footer = () => {
           </div>
         )}
         <p>&copy; {new Date().getFullYear()} Valerie Chu</p>
+        <ReturnHomeButton />
       </div>
     </footer>
   );
