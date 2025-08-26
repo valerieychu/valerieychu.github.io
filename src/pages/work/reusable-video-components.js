@@ -4,6 +4,7 @@ import '../../styles/home.less';
 import divider from '../../images/divider.svg';
 import Header from './../header';
 import Footer from './../footer';
+import ReturnHomeButton from './../returnhomebutton.js';
 
 const WorksampleReusableVideoComponents = () => {
   return (
@@ -81,6 +82,8 @@ const WorksampleReusableVideoComponents = () => {
           View this project
         </button>
 
+        <br />
+
         <iframe
           width='640'
           height='360'
@@ -94,6 +97,8 @@ const WorksampleReusableVideoComponents = () => {
             marginBottom: '1rem',
           }}
           allowfullscreen></iframe>
+
+        <ReturnHomeButton />
       </div>
       <Footer />
     </>

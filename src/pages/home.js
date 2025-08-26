@@ -18,6 +18,7 @@ import aetccometestwithus from '../images/aetccometestwithus.jpg';
 import aetccomeworkwithus from '../images/aetccomeworkwithus.jpg';
 import aetcctwuform from '../images/aetcctwuform.png';
 import aetccwwuform from '../images/aetccwwuform.png';
+import sfchroniclehome from '../images/sfchroniclehome.png';
 
 
 
@@ -119,9 +120,9 @@ const Home = () => {
         <ProjectCard
           image={valeriemirror}
           alt='Valerie takes a mirror pic.'
-          hed='This Portfolio Website'
+          hed='valerieychu.github.io'
           subhed='Personal Project'
-          description='A custom website — I wireframed, coded, and deployed this portfolio site from scratch. I selected all typefaces, did all the styling, created all custom components in React, and got everything running by myself. Used Gatsby and React.'
+          description='A custom website — I wireframed, coded, and deployed this portfolio site from scratch. I selected all typefaces, did all the styling, created all custom components in React, optimized for both mobile and desktop, and got everything running by myself.'
           skills='React, Gatsby, GitHub, Figma, Website development, Website deployment'
           // learnMoreUrl='/work/personal-portfolio'
           // viewProjectUrl='https://valerieychu.github.io/'
@@ -137,8 +138,8 @@ const Home = () => {
           viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/'
         />
         <ProjectCard
-          image={valeriesfchronicle}
-          alt='Valerie at the San Francisco Chronicle'
+          image={sfchroniclehome}
+          alt='San Francisco Chronicle home page'
           hed='Investigative Series'
           subhed='San Francisco Chronicle'
           description='One of the Chronicle’s biggest investigative series this year, to be published later in 2025 — I led the product design and development for this series. With 30,000+ words and five parts, I knew the reader experience was crucial to get right. I wireframed then coded this series, creating custom components such as text message animations and bookmarking features.'

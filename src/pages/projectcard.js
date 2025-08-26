@@ -64,7 +64,7 @@ const ProjectCard = ({
           {learnMoreUrl && (
             <button
               className='projectcard-button-learn-more'
-              onClick={() => window.open(learnMoreUrl, '_blank')}>
+              onClick={() => window.open(learnMoreUrl, '_self')}>
               Learn more
             </button>
           )}

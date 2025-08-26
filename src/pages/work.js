@@ -6,6 +6,7 @@ import divider from '../images/divider.svg';
 import ProjectCard from './projectcard';
 import valeriesfchronicle from '../images/valeriesfchronicle.jpeg';
 import aetccomeworkwithus from '../images/aetccomeworkwithus.jpg';
+import sfchroniclehome from '../images/sfchroniclehome.png';
 
 const Work = () => {
   return (
@@ -58,8 +59,8 @@ const Work = () => {
           viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/'
         />
         <ProjectCard
-          image={valeriesfchronicle}
-          alt='Valerie at the San Francisco Chronicle'
+          image={sfchroniclehome}
+          alt='San Francisco Chronicle home page'
           hed='Investigative Series'
           subhed='San Francisco Chronicle'
           description='One of the Chronicle’s biggest investigative series this year, to be published later in 2025 — I led the product design and development for this series. With 30,000+ words and five parts, I knew the reader experience was crucial to get right. I wireframed then coded this series, creating custom components such as text message animations and bookmarking features.'
