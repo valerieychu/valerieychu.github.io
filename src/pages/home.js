@@ -20,8 +20,6 @@ import aetcctwuform from '../images/aetcctwuform.png';
 import aetccwwuform from '../images/aetccwwuform.png';
 import sfchroniclehome from '../images/sfchroniclehome.png';
 
-
-
 const Home = () => {
   return (
     <>
@@ -60,11 +58,10 @@ const Home = () => {
         <p className='paragraph'>
           As part of NASA's Aerosciences Evaluation and Test Capabilities
           portfolio office, I focus on tracking our wind tunnel tests. I'm
-          building a landing page that automatically updates with data
-          visualizations, issues and highlights based on facility managers’
-          reports on NASA's twelve wind tunnels. Essentially, I'm a full-stack
-          developer/data scientist doing a combination of software development,
-          UI/UX and data science.
+          building a landing page that updates with real-time data
+          visualizations, issues, and highlights for NASA's twelve wind tunnels.
+          Essentially, I'm a full-stack developer/data scientist utilizing
+          software development, UI/UX, and data science skills.
         </p>
         <p className='paragraph'>
           I'm a three-time NASA intern, a former San Francisco Chronicle digital
@@ -122,8 +119,8 @@ const Home = () => {
           alt='Valerie takes a mirror pic.'
           hed='valerieychu.github.io'
           subhed='Personal Project'
-          description='A custom website — I wireframed, coded, and deployed this portfolio site from scratch. I selected all typefaces, did all the styling, created all custom components in React, optimized for both mobile and desktop, and got everything running by myself.'
-          skills='React, Gatsby, GitHub, Figma, Website development, Website deployment'
+          description='A custom website — I wireframed, coded, and deployed this portfolio site from scratch. I selected all typefaces, did all the styling, created all custom components in React and Adobe Illustrator, optimized for both mobile and desktop, and got everything running by myself.'
+          skills='React, Gatsby, GitHub, Figma, Website development, Website deployment, Adobe Illustrator'
           // learnMoreUrl='/work/personal-portfolio'
           // viewProjectUrl='https://valerieychu.github.io/'
         />
@@ -132,7 +129,7 @@ const Home = () => {
           alt='A video demonstration of the scoreboard component.'
           hed='Scoreboard Project'
           subhed='San Francisco Chronicle'
-          description='A custom scoreboard component — Inspired by old-school sports design, I designed and coded a non-developer friendly scoreboard acts lets readers visually track games and scores within a photo story. Compatible with NBA, WNBA, MLB and NFL games.'
+          description='A custom scoreboard component — Inspired by old-school sports design, I designed and coded a non-developer friendly scoreboard that lets readers visually track games and scores within a photo story. Compatible with NBA, WNBA, MLB, and NFL games.'
           skills='React, Figma, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/scoreboard-project'
           viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/'
