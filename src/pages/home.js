@@ -19,6 +19,7 @@ import aetccomeworkwithus from '../images/aetccomeworkwithus.jpg';
 import aetcctwuform from '../images/aetcctwuform.png';
 import aetccwwuform from '../images/aetccwwuform.png';
 import sfchroniclehome from '../images/sfchroniclehome.png';
+import aetchome from '../images/aetchome.png';
 
 const Home = () => {
   return (
@@ -115,14 +116,24 @@ const Home = () => {
       <div className='centered-text'>
         <h3 className='h3'>Select Works</h3>
         <ProjectCard
-          image={valeriemirror}
-          alt='Valerie takes a mirror pic.'
-          hed='valerieychu.github.io'
-          subhed='Personal Project'
-          description='A custom website — I wireframed, coded, and deployed this portfolio site from scratch. I selected all typefaces, did all the styling, created all custom components in React and Adobe Illustrator, optimized for both mobile and desktop, and got everything running by myself.'
-          skills='React, Gatsby, GitHub, Figma, Website development, Website deployment, Adobe Illustrator'
-          // learnMoreUrl='/work/personal-portfolio'
-          // viewProjectUrl='https://valerieychu.github.io/'
+          image={aetchome}
+          alt='NASA Aerosciences Evaluation and Test Capabilities Portfolio Office home page'
+          hed='NASA Wind Tunnel Test Tracking Project'
+          subhed='NASA’s Aerosciences Evaluation and Test Capabilities Portfolio Office'
+          description='Full stack development and data science for tracking NASA’s wind tunnel tests — Built a landing page that updates with real-time issues, highlights, and data visualizations for NASA’s 12 wind tunnels.'
+          skills='Python, Figma, SQL, GitLab, Dash Mantine Components, Dash Plotly'
+          learnMoreUrl='/work/stalker-project'
+          // viewProjectUrl='https://www.nasa.gov/directorates/armd/aetc/'
+        />
+        <ProjectCard
+          image={sfchroniclehome}
+          alt='San Francisco Chronicle home page'
+          hed='Investigative Series'
+          subhed='San Francisco Chronicle'
+          description='One of the Chronicle’s biggest investigative series this year, to be published later in 2025 — I led the product design and development for this series. With 30,000+ words and five parts, I knew the reader experience was crucial to get right. I designed, wireframed, and coded this series, creating custom components such as text message animations and bookmarking features.'
+          skills='React, Figma, GSAP, Illustrator, ArchieML, HTML, CSS, JavaScript'
+          learnMoreUrl='/work/stalker-project'
+          viewProjectUrl='https://sfchronicle.com/'
         />
         <ProjectCard
           videoSrc='/scoreboard-component.mp4'
@@ -133,16 +144,6 @@ const Home = () => {
           skills='React, Figma, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/scoreboard-project'
           viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/'
-        />
-        <ProjectCard
-          image={sfchroniclehome}
-          alt='San Francisco Chronicle home page'
-          hed='Investigative Series'
-          subhed='San Francisco Chronicle'
-          description='One of the Chronicle’s biggest investigative series this year, to be published later in 2025 — I led the product design and development for this series. With 30,000+ words and five parts, I knew the reader experience was crucial to get right. I wireframed then coded this series, creating custom components such as text message animations and bookmarking features.'
-          skills='React, Figma, GSAP, Illustrator, ArchieML, HTML, CSS, JavaScript'
-          learnMoreUrl='/work/stalker-project'
-          viewProjectUrl='https://sfchronicle.com/'
         />
         <ProjectCard
           videoUrl='https://www.youtube.com/embed/oPsJiwtwxb4?si=LygNLsmEO-YP3Szz'
@@ -157,11 +158,21 @@ const Home = () => {
           image={aetccomeworkwithus}
           alt='AETC Slideshow'
           hed='NASA Lead Capture Forms'
-          subhed='NASA’s Aerosciences Evaluation and Test Capabilities (AETC) Portfolio Office'
+          subhed='NASA’s Aerosciences Evaluation and Test Capabilities Portfolio Office'
           description='Design and development for lead capture forms — For AETC’s exhibition at AIAA AVIATION 2024, we wanted to collect information from people interested in testing in our wind tunnel facilities or joining our team. I designed, coded, and deployed two data input forms for lead capture, working with complex callbacks to collect data and write to a database.'
           skills='Python, SQL, GitLab, Adobe InDesign, Figma, Dash Mantine Components, Photoshop'
           learnMoreUrl='/work/nasa-lead-capture-forms'
           viewProjectUrl='https://adapt-public.aetc.appdat.jsc.nasa.gov/come-test-with-us'
+        />
+        <ProjectCard
+          image={valeriemirror}
+          alt='Valerie takes a mirror pic.'
+          hed='valerieychu.github.io'
+          subhed='Personal Project'
+          description='A custom website — I designed, wireframed, coded, and deployed this portfolio site from scratch. I selected all typefaces, did all the styling, created all custom components in React and Adobe Illustrator, optimized for both mobile and desktop, and got everything running by myself.'
+          skills='React, Gatsby, GitHub, Figma, Website development, Website deployment, Adobe Illustrator'
+          // learnMoreUrl='/work/personal-portfolio'
+          // viewProjectUrl='https://valerieychu.github.io/'
         />
       </div>
 
