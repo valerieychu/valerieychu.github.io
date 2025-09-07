@@ -122,7 +122,7 @@ const Home = () => {
           subhed='NASA’s Aerosciences Evaluation and Test Capabilities Portfolio Office'
           description='Full stack development and data science for tracking NASA’s wind tunnel tests — Built a landing page that updates with real-time issues, highlights, and data visualizations for NASA’s 12 wind tunnels.'
           skills='Python, Figma, SQL, GitLab, Dash Mantine Components, Dash Plotly'
-          learnMoreUrl='/work/stalker-project'
+          learnMoreUrl='/work/nasa-wind-tunnel-test-tracking'
           // viewProjectUrl='https://www.nasa.gov/directorates/armd/aetc/'
         />
         <ProjectCard

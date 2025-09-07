@@ -16,11 +16,14 @@ const Header = () => {
             Work
           </button>
           <div className='dropdown-content'>
-            <button onClick={() => navigate('/work/scoreboard-project')}>
-              Scoreboard Project
+            <button onClick={() => navigate('/work/nasa-wind-tunnel-test-tracking')}>
+              NASA Wind Tunnel Test Tracking
             </button>
             <button onClick={() => navigate('/work/stalker-project')}>
               Investigative Series
+            </button>
+            <button onClick={() => navigate('/work/scoreboard-project')}>
+              Scoreboard Project
             </button>
             <button onClick={() => navigate('/work/reusable-video-components')}>
               Reusable Video Components
