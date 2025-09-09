@@ -133,7 +133,7 @@ const Home = () => {
           description='One of the Chronicle’s biggest investigative series this year, to be published later in 2025 — I led the product design and development for this series. With 30,000+ words and five parts, I knew the reader experience was crucial to get right. I designed, wireframed, and coded this series, creating custom components such as text message animations and bookmarking features.'
           skills='React, Figma, GSAP, Illustrator, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/stalker-project'
-          viewProjectUrl='https://sfchronicle.com/'
+          // viewProjectUrl='https://sfchronicle.com/'
         />
         <ProjectCard
           videoSrc='/scoreboard-component.mp4'
