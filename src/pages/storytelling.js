@@ -6,6 +6,8 @@ import divider from '../images/divider.svg';
 import ProjectCard from './projectcard';
 import SlideshowCard from './slideshowcard';
 import manymeasuresofmeteorites from '../images/manymeasuresofmeteorites.png';
+import mothstories from '../images/mothstories.png'
+import photoinstagram from '../images/photoinstagram.png'
 
 const Storytelling = () => {
   return (
@@ -35,16 +37,32 @@ const Storytelling = () => {
         <img src={divider} alt='divider' className='divider' />
 
         <h3 className='h3'>Photojournalism</h3>
-        <SlideshowCard
-          image={manymeasuresofmeteorites}
-          alt='AETC Slideshow'
+        <ProjectCard
+          image={photoinstagram}
+          alt='Valerie Photography Instagram'
+          hed="Valerie's Photography Instagram"
+          subhed=''
+          description="Photographs of presidents, politicians, people, and some plants."
+          skills='Adobe Lightroom, Event photography, Photoshop, Political coverage'
+          learnMoreUrl=''
+          viewProjectUrl='https://instagram.com/valerieychuphotos'
+        />
+
+        <br></br>
+
+        <h3 className='h3'>Political Reporting & Photography on a Science and Tech Beat</h3>
+        <ProjectCard
+          image={mothstories}
+          alt='Medill on the Hill stories'
           hed='The White House, Capitol, and Supreme Court'
           subhed='Medill News Service'
           description='Photographed President Trump and White House press briefings, covered Senate confirmation hearings, interviewed senators, reported on a Supreme Court case. Granted full press access to the Capitol, Supreme Court, and White House.'
           skills='Adobe Lightroom, Science and technology beat reporting, Political reporting, Freelancing, Navigating official press briefings, Chasing down senators in hallways, Capturing critical moments in each event'
-          learnMoreUrl='/storytelling'
+          learnMoreUrl='https://medillonthehill.medill.northwestern.edu/author/vchu/'
           viewProjectUrl='https://instagram.com/valerieychuphotos'
         />
+
+        <br></br>
 
         <h3 className='h3'>Data Visualization</h3>
         <ProjectCard
