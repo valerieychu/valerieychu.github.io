@@ -9,7 +9,8 @@ import manymeasuresofmeteorites from '../images/manymeasuresofmeteorites.png';
 import mothstories from '../images/mothstories.png';
 import photoinstagram from '../images/photoinstagram.png';
 import avocados from '../images/avocados.jpeg';
-import eclipse from '../images/eclipse.jpg'
+import eclipse from '../images/eclipse.jpg';
+import goodreads from '../images/goodreads.png'
 
 const Storytelling = () => {
   return (
@@ -71,6 +72,7 @@ const Storytelling = () => {
         <h3 className='h3'>
           Supervised Machine Learning for Prediction Modeling
         </h3>
+
         <ProjectCard
           image={avocados}
           alt='an analysis of avocados'
@@ -78,7 +80,7 @@ const Storytelling = () => {
           subhed='Northwestern University STAT 301-2 final project'
           description='Developed a predictive model for the prices of avocados by comparing 13 model variants across 7 model types (Null, Ordinary Least Squares, Lasso, Ridge, K-Nearest Neighbors, Random Forest, Boosted Tree), evaluated across 50 resampled datasets to identify the best-performing model. 
 Utilized V-fold cross-validation resampling and parallel processing techniques for efficiently tuning hyperparameter values with Tidymodels in RStudio.'
-          skills='R, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, regression model, model building, refinement and selection, hyperparameter tuning, data wrangling, graphical analysis'
+          skills='R, RStudio, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, regression model, model building, refinement and selection, hyperparameter tuning, graphical analysis'
           // learnMoreUrl='/storytelling'
           viewProjectUrl='https://github.com/valerieychu/an-analysis-of-avocados'
         />
@@ -90,7 +92,7 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
           subhed='Northwestern University STAT 301-3 final project'
           description='Developed a predictive model for when eclipses happen by comparing 18 model variants across 10 model types (Null, Boosted Tree, Elastic Net, K-Nearest Neighbors, Logistic, MARS, Neural Network, Random Forest, SVM Poly, SVM Radial), evaluated across 50 resampled datasets to identify the best-performing model. 
 Utilized V-fold cross-validation resampling and parallel processing techniques for efficiently tuning hyperparameter values with Tidymodels in RStudio.'
-          skills='R, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, classification model, model building, refinement and selection, hyperparameter tuning, data wrangling, graphical analysis'
+          skills='R, RStudio, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, classification model, model building, refinement and selection, hyperparameter tuning, graphical analysis'
           // learnMoreUrl='/storytelling'
           viewProjectUrl='https://github.com/valerieychu/when-do-eclipses-happen'
         />
@@ -98,6 +100,7 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
         <br></br>
 
         <h3 className='h3'>Data Visualization</h3>
+
         <ProjectCard
           image={manymeasuresofmeteorites}
           alt='Meteorites'
@@ -108,6 +111,18 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
           // learnMoreUrl='/storytelling'
           viewProjectUrl='https://nohrcx-valerie-chu.shinyapps.io/the_many_measures_of_meteorites/'
         />
+
+        <ProjectCard
+          image={goodreads}
+          alt='goodreads'
+          hed='The Habits of Goodreads Users'
+          subhed='Northwestern University STAT 301-1 final project'
+          description="A book lover's analysis of key bookish questions: Do people hate-rate or love-rate books? What languages are books on Goodreads written in? How many years have young adult books been around? And many more questions..."
+          skills='R, RStudio, Data analysis, Exploratory data analysis (EDA), Data visualization, Data wrangling'
+          // learnMoreUrl='/storytelling'
+          viewProjectUrl='https://github.com/valerieychu/habits-of-goodreads-users'
+        />
+
 
         <img src={divider} alt='divider' className='divider' />
 
