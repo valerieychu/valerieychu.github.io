@@ -6,8 +6,9 @@ import divider from '../images/divider.svg';
 import ProjectCard from './projectcard';
 import SlideshowCard from './slideshowcard';
 import manymeasuresofmeteorites from '../images/manymeasuresofmeteorites.png';
-import mothstories from '../images/mothstories.png'
-import photoinstagram from '../images/photoinstagram.png'
+import mothstories from '../images/mothstories.png';
+import photoinstagram from '../images/photoinstagram.png';
+import avocados from '../images/avocados.jpeg';
 
 const Storytelling = () => {
   return (
@@ -42,7 +43,7 @@ const Storytelling = () => {
           alt='Valerie Photography Instagram'
           hed="Valerie's Photography Instagram"
           subhed=''
-          description="Photographs of presidents, politicians, people, and some plants."
+          description='Photographs of presidents, politicians, people, and some plants.'
           skills='Adobe Lightroom, Event photography, Photoshop, Political coverage'
           learnMoreUrl=''
           viewProjectUrl='https://instagram.com/valerieychuphotos'
@@ -50,7 +51,9 @@ const Storytelling = () => {
 
         <br></br>
 
-        <h3 className='h3'>Political Reporting & Photography on a Science and Tech Beat</h3>
+        <h3 className='h3'>
+          Political Reporting & Photography on a Science and Tech Beat
+        </h3>
         <ProjectCard
           image={mothstories}
           alt='Medill on the Hill stories'
@@ -64,15 +67,32 @@ const Storytelling = () => {
 
         <br></br>
 
+        <h3 className='h3'>
+          Supervised Machine Learning for Prediction Modeling
+        </h3>
+        <ProjectCard
+          image={avocados}
+          alt='an analysis of avocados'
+          hed='An Analysis of Avocados'
+          subhed='Northwestern University STAT 301-2 final project'
+          description='Developed a predictive model for the prices of avocados by comparing 13 model variants across 7 model types (Null, Ordinary Least Squares, Lasso, Ridge, K-Nearest Neighbors, Random Forest, Boosted Tree), evaluated across 50 resampled datasets to identify the best-performing model. 
+Utilized V-fold cross-validation resampling and parallel processing techniques for efficiently tuning hyperparameter values with Tidymodels in RStudio.'
+          skills='R, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, regression model, model building, refinement and selection, hyperparameter tuning, data wrangling, graphical analysis'
+          // learnMoreUrl='/storytelling'
+          viewProjectUrl='https://github.com/valerieychu/an-analysis-of-avocados'
+        />
+
+        <br></br>
+
         <h3 className='h3'>Data Visualization</h3>
         <ProjectCard
           image={manymeasuresofmeteorites}
-          alt='AETC Slideshow'
+          alt='Meteorites'
           hed='The Many Measures of Meteorites'
-          subhed='Northwestern University STAT 301-2 project'
+          subhed='Northwestern University STAT 302 final project'
           description='A fun, interactive dashboard showing where meteorites fall, how that has changed across the years, and how large their impacts are.'
           skills='R, Data visualization, Data wrangling, Shiny Applications, Map creation, HTML, Interactive elements, Science communication, UI/UX'
-          learnMoreUrl='/storytelling'
+          // learnMoreUrl='/storytelling'
           viewProjectUrl='https://nohrcx-valerie-chu.shinyapps.io/the_many_measures_of_meteorites/'
         />
 
