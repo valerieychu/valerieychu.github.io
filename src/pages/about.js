@@ -15,8 +15,8 @@ const About = () => {
           a bit of my work! But if not, here's a quick summary:
         </p>
         <p className='paragraph'>
-          I'm a storyteller passionate about working with data to design and code
-          digital products that tell a story. I'm also a rising senior at
+          I'm a storyteller passionate about working with data to design and
+          code digital products that tell a story. I'm also a senior at
           Northwestern University triple majoring in data science, journalism,
           and international studies.
           {/* I'm an aspiring data scientist who
@@ -24,9 +24,12 @@ const About = () => {
           the data.  */}
         </p>
         <p className='paragraph'>
-          I'm a current NASA intern, a former San Francisco Chronicle intern,
-          and I've also been at several other places. You can see my resume and
-          a summary of my work experience below.
+          I've interned at NASA, the San Francisco Chronicle, and several other
+          places. Currently, I'm the web interactives editor of North by
+          Northwestern, where I lead our data visualizations, interactive
+          storytelling, and magazine-to-web story team to help our articles
+          reach the Northwestern University community and beyond. You can see my
+          resume and a summary of my work experience below.
         </p>
         <p className='paragraph'>
           In my free time, I love reading, playing cello, taking photographs of
@@ -37,7 +40,7 @@ const About = () => {
           style={{ marginRight: '1rem' }}
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/1KhrXfZAUsuBmB1eWYO9mW9sj1xx7n6mk/view?usp=sharing',
+              'https://drive.google.com/file/d/1rTdswpATWFARn9dJoY1XkhEQ5pAVDAkO/view?usp=sharing',
               '_blank',
             )
           }>
@@ -47,15 +50,19 @@ const About = () => {
 
         <h2 className='h2'>Work experience, summarized</h2>
         <p className='paragraph'>
-          • (June 2025 - September 2025) NASA - Data & Analytics Intern - JPL,
-          Pasadena, Calif.
+          • (September 2025 - Present) North by Northwestern - Web Interactives
+          Editor - Evanston, Ill.
+          <br />
+          <br />
+          • (June 2025 - September 2025) NASA - Full Stack Data Science Intern -
+          JPL, Pasadena, Calif.
           <br />
           <br />
           • (March 2025 - June 2025) San Francisco Chronicle - Digital Design
-          Intern - San Francisco
+          and Development Intern - San Francisco
           <br />
-          <br />• (Jan. 2025 - March 2025) Medill News Service - Health &
-          Science Reporter / Photographer - Washington, D.C.
+          <br />• (Jan. 2025 - March 2025) Medill News Service - Science &
+          Tech Reporter and Photographer - Washington, D.C.
           <br />
           <br />• (Oct. 2024 - Dec. 2024) CoRegistros - U.S. Customer
           Acquisition Intern - Barcelona, Spain
