@@ -61,8 +61,8 @@ const Storytelling = () => {
           subhed='Medill News Service'
           description='Photographed President Trump and White House press briefings, covered Senate confirmation hearings, interviewed senators, reported on a Supreme Court case. Granted full press access to the Capitol, Supreme Court, and White House.'
           skills='Adobe Lightroom, Science and technology beat reporting, Political reporting, Freelancing, Navigating official press briefings, Chasing down senators in hallways, Capturing critical moments in each event'
-          learnMoreUrl='https://medillonthehill.medill.northwestern.edu/author/vchu/'
-          viewProjectUrl='https://instagram.com/valerieychuphotos'
+          // learnMoreUrl='https://medillonthehill.medill.northwestern.edu/author/vchu/'
+          viewProjectUrl='https://medillonthehill.medill.northwestern.edu/author/vchu/'
         />
 
         <br></br>
