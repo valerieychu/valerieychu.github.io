@@ -9,6 +9,7 @@ import manymeasuresofmeteorites from '../images/manymeasuresofmeteorites.png';
 import mothstories from '../images/mothstories.png';
 import photoinstagram from '../images/photoinstagram.png';
 import avocados from '../images/avocados.jpeg';
+import eclipse from '../images/eclipse.jpg'
 
 const Storytelling = () => {
   return (
@@ -80,6 +81,18 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
           skills='R, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, regression model, model building, refinement and selection, hyperparameter tuning, data wrangling, graphical analysis'
           // learnMoreUrl='/storytelling'
           viewProjectUrl='https://github.com/valerieychu/an-analysis-of-avocados'
+        />
+
+        <ProjectCard
+          image={eclipse}
+          alt='eclipse'
+          hed='When Do Eclipses Happen?'
+          subhed='Northwestern University STAT 301-3 final project'
+          description='Developed a predictive model for when eclipses happen by comparing 18 model variants across 10 model types (Null, Boosted Tree, Elastic Net, K-Nearest Neighbors, Logistic, MARS, Neural Network, Random Forest, SVM Poly, SVM Radial), evaluated across 50 resampled datasets to identify the best-performing model. 
+Utilized V-fold cross-validation resampling and parallel processing techniques for efficiently tuning hyperparameter values with Tidymodels in RStudio.'
+          skills='R, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, classification model, model building, refinement and selection, hyperparameter tuning, data wrangling, graphical analysis'
+          // learnMoreUrl='/storytelling'
+          viewProjectUrl='https://github.com/valerieychu/when-do-eclipses-happen'
         />
 
         <br></br>
