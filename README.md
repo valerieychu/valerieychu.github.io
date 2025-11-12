@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://valerieychu.github.io/">
-    <img alt="Valerie Chu" src="/src/images/valerie.chu.png" width="60" />
+    <img alt="Valerie Chu" src="../images/valerie.chu.png" width="60" />
   </a>
 </p>
 <h1 align="center">
