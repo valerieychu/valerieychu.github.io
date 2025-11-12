@@ -1,49 +1,36 @@
 <p align="center">
   <a href="https://valerieychu.github.io/">
-    <img alt="Valerie Chu" src="../images/valerie.chu.png" width="60" />
+    <img alt="Valerie Chu" src="/valeriechu.png" width="60" />
   </a>
 </p>
 <h1 align="center">
   Valerie Chu's Portfolio
 </h1>
 
-## 🚀 Quick start
+## ✨ Welcome to my portfolio! ✨
 
-1.  **Create a Gatsby site.**
+This is a custom website I built myself! 
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+I designed, wireframed, coded, and deployed this portfolio site from scratch. I selected all typefaces, did all the styling, created all custom components in React and Adobe Illustrator, optimized for both mobile and desktop, and got everything running! 
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+You can click [here] (https://valerieychu.github.io/) to check out my website! It contains my work, resume, and more! 
 
-2.  **Start developing.**
+If you have any questions or would love to chat more about books, cats, crochet, traveling, or anything in general, please feel to reach out through [email] (mailto:valeriechu2026@u.northwestern.edu) or any of the platforms below!
 
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+<p align="center">
+  <a href="https://github.com/valerieychu" target="_blank">
+    <img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" width="40" height="40"/>
+  </a>
+  <a href="instagram.com/valerieychu" target="_blank">
+    <img src="https://cdn.simpleicons.org/instagram/000000" alt="Instagram" width="40" height="40"/>
+  </a>
+  <a href="https://www.linkedin.com/in/valerieychu/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="40" height="40"/>
+  </a>
+  <a href="https://x.com/valerieychu" target="_blank">
+    <img src="https://cdn.simpleicons.org/x/000000" alt="Twitter" width="40" height="40"/>
+  </a>
+  <a href="mailto:valeriechu2026@u.northwestern.edu" target="_blank">
+    <img src="https://cdn.simpleicons.org/gmail/000000" alt="Email" width="40" height="40"/>
+  </a>
+</p>
