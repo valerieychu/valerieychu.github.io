@@ -15,7 +15,7 @@ I designed, wireframed, coded, and deployed this portfolio site from scratch. I 
 
 You can click [here](https://valerieychu.github.io/) to check out my website! It contains my work, resume, and more! 
 
-If you have any questions or would love to chat about books, music, traveling, or career, please feel to reach out through [email](mailto:valeriechu2026@u.northwestern.edu) or any of the platforms below!
+If you have any questions or would love to chat about fantasy novels, classical music, learning languages, or career, please reach out through [email](mailto:valeriechu2026@u.northwestern.edu) or any of the platforms below!
 
 <p align="center">
   <a href="https://github.com/valerieychu" target="_blank">
