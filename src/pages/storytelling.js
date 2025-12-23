@@ -4,13 +4,14 @@ import Header from './header';
 import Footer from './footer';
 import divider from '../images/divider.svg';
 import ProjectCard from './projectcard';
+import HorizontalGallery from './horizontalgallery';
 import SlideshowCard from './slideshowcard';
 import manymeasuresofmeteorites from '../images/manymeasuresofmeteorites.png';
 import mothstories from '../images/mothstories.png';
 import photoinstagram from '../images/photoinstagram.png';
 import avocados from '../images/avocados.jpeg';
 import eclipse from '../images/eclipse.jpg';
-import goodreads from '../images/goodreads.png'
+import goodreads from '../images/goodreads.png';
 
 const Storytelling = () => {
   return (
@@ -50,6 +51,17 @@ const Storytelling = () => {
           learnMoreUrl=''
           viewProjectUrl='https://instagram.com/valerieychuphotos'
         />
+
+        <br></br>
+
+        <HorizontalGallery
+          hed='Selected Works of Photojournalism'
+          // subhed='Magazine Photojournalism. Newspaper Photojournalism. Corporate Events. Theater. Nature Photography. Headshots.'
+          description='Magazine. Newspaper. Corporate Events. Theater. Nature Photography. Headshots.'>
+          <img src={avocados} alt='Project preview' />
+          <img src={avocados} alt='Project preview' />
+          <img src={avocados} alt='Project preview' />
+        </HorizontalGallery>
 
         <br></br>
 
@@ -122,7 +134,6 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
           // learnMoreUrl='/storytelling'
           viewProjectUrl='https://github.com/valerieychu/habits-of-goodreads-users'
         />
-
 
         <img src={divider} alt='divider' className='divider' />
 
