@@ -25,8 +25,8 @@ const Storytelling = () => {
             style={{ color: '#b76e79', fontSize: '16px' }}>
             &#9829;
           </span>{' '} */}
-          Photojournalism | Design | Video | Writing | Data Visualization |
-          UI/UX | Languages
+          Reporting | Data Science | Data Visualization | Photojournalism |
+          Design | Video | UI/UX | Languages
           {/* {' '}
           <span
             className='heart'
@@ -39,31 +39,6 @@ const Storytelling = () => {
           UI/UX | Languages
         </p> */}
         <img src={divider} alt='divider' className='divider' />
-
-        <h3 className='h3'>Photojournalism</h3>
-        <ProjectCard
-          image={photoinstagram}
-          alt='Valerie Photography Instagram'
-          hed="Valerie's Photography Instagram"
-          subhed=''
-          description='Photographs of presidents, politicians, people, and some plants.'
-          skills='Adobe Lightroom, Event photography, Photoshop, Political coverage'
-          learnMoreUrl=''
-          viewProjectUrl='https://instagram.com/valerieychuphotos'
-        />
-
-        <br></br>
-
-        <HorizontalGallery
-          hed='Selected Works of Photojournalism'
-          // subhed='Magazine Photojournalism. Newspaper Photojournalism. Corporate Events. Theater. Nature Photography. Headshots.'
-          description='Magazine. Newspaper. Corporate Events. Theater. Nature Photography. Headshots.'>
-          <img src={avocados} alt='Project preview' />
-          <img src={avocados} alt='Project preview' />
-          <img src={avocados} alt='Project preview' />
-        </HorizontalGallery>
-
-        <br></br>
 
         <h3 className='h3'>
           Political Reporting & Photography on a Science and Tech Beat
@@ -134,6 +109,34 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
           // learnMoreUrl='/storytelling'
           viewProjectUrl='https://github.com/valerieychu/habits-of-goodreads-users'
         />
+
+        <br></br>
+
+        <h3 className='h3'>Photojournalism</h3>
+        <ProjectCard
+          image={photoinstagram}
+          alt='Valerie Photography Instagram'
+          hed="Valerie's Photography Instagram"
+          subhed=''
+          description='Photographs of presidents, politicians, people, and some plants.'
+          skills='Adobe Lightroom, Event photography, Photoshop, Political coverage'
+          learnMoreUrl=''
+          viewProjectUrl='https://instagram.com/valerieychuphotos'
+        />
+
+        <br></br>
+
+        <HorizontalGallery
+          hed='[Horizontal gallery under development] Selected Works of Photojournalism'
+          // subhed='Magazine Photojournalism. Newspaper Photojournalism. Corporate Events. Theater. Nature Photography. Headshots.'
+          description='Magazine. Newspaper. Corporate Events. Theater. Nature Photography. Headshots.'>
+          <img src={avocados} alt='Project preview' />
+          <img src={avocados} alt='Project preview' />
+          <img src={avocados} alt='Project preview' />
+          <img src={avocados} alt='Project preview' />
+        </HorizontalGallery>
+
+        <br></br>
 
         <img src={divider} alt='divider' className='divider' />
 
