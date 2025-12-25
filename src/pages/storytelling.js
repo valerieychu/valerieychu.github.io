@@ -67,7 +67,7 @@ const Storytelling = () => {
           subhed='Northwestern University STAT 301-2 final project'
           description='Developed a predictive model for the prices of avocados by comparing 13 model variants across 7 model types (Null, Ordinary Least Squares, Lasso, Ridge, K-Nearest Neighbors, Random Forest, Boosted Tree), evaluated across 50 resampled datasets to identify the best-performing model. 
 Utilized V-fold cross-validation resampling and parallel processing techniques for efficiently tuning hyperparameter values with Tidymodels in RStudio.'
-          skills='R, RStudio, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, regression model, model building, refinement and selection, hyperparameter tuning, graphical analysis'
+          skills='R, RStudio, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, Regression model, Model building, Refinement and selection, Hyperparameter tuning, Graphical analysis'
           // learnMoreUrl='/storytelling'
           viewProjectUrl='https://github.com/valerieychu/an-analysis-of-avocados'
         />
@@ -79,7 +79,7 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
           subhed='Northwestern University STAT 301-3 final project'
           description='Developed a predictive model for when eclipses happen by comparing 18 model variants across 10 model types (Null, Boosted Tree, Elastic Net, K-Nearest Neighbors, Logistic, MARS, Neural Network, Random Forest, SVM Poly, SVM Radial), evaluated across 50 resampled datasets to identify the best-performing model. 
 Utilized V-fold cross-validation resampling and parallel processing techniques for efficiently tuning hyperparameter values with Tidymodels in RStudio.'
-          skills='R, RStudio, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, classification model, model building, refinement and selection, hyperparameter tuning, graphical analysis'
+          skills='R, RStudio, Data analysis, Data visualization, Data wrangling, Common machine learning prediction models, Classification model, Model building, Refinement and selection, Hyperparameter tuning, Graphical analysis'
           // learnMoreUrl='/storytelling'
           viewProjectUrl='https://github.com/valerieychu/when-do-eclipses-happen'
         />

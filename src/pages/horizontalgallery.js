@@ -11,24 +11,11 @@ const HorizontalGallery = ({ hed, subhed, description, children }) => {
     if (!gallery) return;
 
     // Horizontal scrolling within the gallery (programmatic scroll)
-    // const onWheel = (e) => {
-    //   if (gallery.matches(':hover')) {
-    //     e.preventDefault();
-    //     gallery.scrollLeft += e.deltaY * 3;
-
-    //     const maxScroll = gallery.scrollWidth - gallery.clientWidth;
-
-    //     setScrollProgress(maxScroll > 0 ? gallery.scrollLeft / maxScroll : 0);
-    //   }
-    // };
     const onWheel = (e) => {
-      // Only convert vertical scroll to horizontal
+      // Convert vertical wheel to horizontal scroll
       if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
         e.preventDefault();
         gallery.scrollLeft += e.deltaY * 3;
-        const maxScroll = gallery.scrollWidth - gallery.clientWidth;
-
-        setScrollProgress(maxScroll > 0 ? gallery.scrollLeft / maxScroll : 0);
       }
     };
 
@@ -39,13 +26,55 @@ const HorizontalGallery = ({ hed, subhed, description, children }) => {
       setScrollProgress(maxScroll > 0 ? gallery.scrollLeft / maxScroll : 0);
     };
 
-    // window.addEventListener('wheel', onWheel, { passive: false });
-    // gallery.addEventListener('scroll', onScroll);
     gallery.addEventListener('wheel', onWheel, { passive: false });
+    gallery.addEventListener('scroll', onScroll);
 
     return () => {
-      window.removeEventListener('wheel', onWheel);
+      gallery.removeEventListener('wheel', onWheel);
       gallery.removeEventListener('scroll', onScroll);
+    };
+  }, []);
+
+  // Click and drag scrolling
+  useEffect(() => {
+    const gallery = galleryRef.current;
+    if (!gallery) return;
+
+    let isDragging = false;
+    let startX = 0;
+    let startScrollLeft = 0;
+
+    const onPointerDown = (e) => {
+      e.preventDefault();
+      isDragging = true;
+      startX = e.clientX;
+      startScrollLeft = gallery.scrollLeft;
+      gallery.setPointerCapture(e.pointerId);
+      gallery.classList.add('is-dragging');
+    };
+
+    const onPointerMove = (e) => {
+      e.preventDefault();
+      if (!isDragging) return;
+      const dx = e.clientX - startX;
+      gallery.scrollLeft = startScrollLeft - dx;
+    };
+
+    const onPointerUp = () => {
+      isDragging = false;
+      gallery.classList.remove('is-dragging');
+    };
+
+    gallery.addEventListener('pointerdown', onPointerDown);
+    gallery.addEventListener('pointermove', onPointerMove);
+    gallery.addEventListener('pointerup', onPointerUp);
+    gallery.addEventListener('pointerleave', onPointerUp);
+
+    return () => {
+      gallery.removeEventListener('pointerdown', onPointerDown);
+      gallery.removeEventListener('pointermove', onPointerMove);
+      gallery.removeEventListener('pointerup', onPointerUp);
+      gallery.removeEventListener('pointerleave', onPointerUp);
     };
   }, []);
 

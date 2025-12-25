@@ -27,7 +27,7 @@
     height: auto;
     object-fit: cover;
     border-radius: 8px;
-    margin-top: 0; // explicitly clear margin
+    margin-top: 0; 
   }
 }
 
@@ -63,23 +63,15 @@
 .horizontalgallery-media {
   display: flex;
   width: 100%;
-}
-
-
-.horizontalgallery-media {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-
   overflow-x: scroll;
-//   overflow-y: hidden;
-
   padding-bottom: 2rem;
 
-//   scroll-behavior: smooth;
-//   -webkit-overflow-scrolling: touch;
+  cursor: grab;
+  user-select: none;
+  touch-action: pan-y; // allow vertical page scroll
+  gap: 1rem;
 
-  /* Hide scrollbar */
+  // Hide scrollbar
   scrollbar-width: none;
   -ms-overflow-style: none;
 
@@ -88,26 +80,35 @@
   }
 
   > * {
-  flex: 0 0 auto;
-  height: 250px; // constrain height
-  max-height: 250px;
-  display: flex;
-  align-items: stretch;
+    flex: 0 0 auto;
+    height: 250px; // constrain height
+    max-height: 250px;
+    display: flex;
+    align-items: stretch;
+  }
 }
+
+.horizontalgallery-media.is-dragging {
+  cursor: grabbing;
+}
+
+.horizontalgallery-media img {
+  pointer-events: none;
+  user-drag: none;
+  -webkit-user-drag: none;
 }
 
 .horizontalgallery-media img,
 .horizontalgallery-media video,
 .horizontalgallery-media iframe {
   height: 100%;
-  width: auto;            // ← key
+  width: auto;
   max-width: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
 
-
-/* Scroll indicator */
+// Scroll indicator
 .horizontalgallery-indicator {
   position: absolute;
   bottom: 0;
@@ -133,31 +134,8 @@
 
 @media (min-width: 768px) {
   .horizontalgallery-container {
-    // flex-direction: row;
     gap: 1rem;
-    // flex-wrap: nowrap; // prevent wrapping
   }
-
-//   .horizontalgallery-image {
-//     // width: 50%; // make image responsive
-//     max-width: 100%;
-//     height: 250px;
-//     height: auto;
-//     margin-bottom: 1rem;
-
-//     img, iframe, video {
-//       object-fit: cover;
-//       max-height: 100%;
-//     }
-//   }
-
-//   .horizontalgallery-media {
-//     gap: 2rem;
-
-//     > * {
-//       max-width: none;
-//     }
-//   }
 
   .horizontalgallery-indicator {
     width: 140px;
