@@ -12,6 +12,17 @@ import photoinstagram from '../images/photoinstagram.png';
 import avocados from '../images/avocados.jpeg';
 import eclipse from '../images/eclipse.jpg';
 import goodreads from '../images/goodreads.png';
+import cpacmusk from '../images/selectedphotos/cpac-musk.jpg';
+import trumpstarmer from '../images/selectedphotos/trump-starmer.jpg';
+import kennedyconfirmationhearing from '../images/selectedphotos/kennedy-confirmation-hearing.jpg';
+import leavittbriefing from '../images/selectedphotos/leavitt-briefing-2.jpg';
+import trumpeod from '../images/selectedphotos/trump-education-of-department.jpg';
+import patelconfirmationhearing from '../images/selectedphotos/patel-confirmation-hearing.jpg';
+import nasawallops from '../images/selectedphotos/nasa-wallops.jpg';
+import nbncover from '../images/selectedphotos/nbn-cover.jpg';
+import nbnbobaboom from '../images/selectedphotos/nbn-boba-boom.jpg';
+import nuaznfeature from '../images/selectedphotos/nuazn-feature-story.jpg';
+import nuaznlausanity from '../images/selectedphotos/nuazn-lausanity.jpg';
 
 const Storytelling = () => {
   return (
@@ -130,10 +141,50 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
           hed='[Horizontal gallery under development] Selected Works of Photojournalism'
           // subhed='Magazine Photojournalism. Newspaper Photojournalism. Corporate Events. Theater. Nature Photography. Headshots.'
           description='Magazine. Newspaper. Corporate Events. Theater. Nature Photography. Headshots.'>
-          <img src={avocados} alt='Project preview' />
-          <img src={avocados} alt='Project preview' />
-          <img src={avocados} alt='Project preview' />
-          <img src={avocados} alt='Project preview' />
+          <img
+            src={cpacmusk}
+            alt='Elon Musk showcases a bejeweled chainsaw gifted by Javier Milei (right) at the Conservative Political Action Conference (CPAC) at Oxon Hill, Md., on Thursday, Feb. 20, 2025.'
+          />
+          <img
+            src={trumpstarmer}
+            alt='President Donald Trump and British Prime Minister Keir Starmer hold a joint press conference at the White House on Feb. 27, 2025.'
+          />
+          <img
+            src={kennedyconfirmationhearing}
+            alt='Robert F. Kennedy Jr. took questions from senators at his confirmation hearing on Jan. 29, 2025.'
+          />
+          <img
+            src={leavittbriefing}
+            alt='White House Press Secretary Karoline Leavitt holds a press briefing on March 19, 2025.'
+          />
+          <img
+            src={trumpeod}
+            alt='President Donald Trump signed an executive order to begin dismantling the Department of Education as students, Republican governors and conservative organizations watched.'
+          />
+          <img
+            src={patelconfirmationhearing}
+            alt='Kash Patel, Trump’s nominee for Director of the FBI, faced questions from the Senate Judiciary Committee.'
+          />
+          <img
+            src={nasawallops}
+            alt='NASA Goddard communications interns visited NASA Wallops.'
+          />
+          <img
+            src={nbncover}
+            alt="NBN cover story: Northwestern's marching band builds community and connections"
+          />
+          <img
+            src={nuaznfeature}
+            alt='NuAZN feature story: Lessons in Alchemy.'
+          />
+          <img
+            src={nbnbobaboom}
+            alt='NBN Boba Boom.'
+          />
+          <img
+            src={nuaznlausanity}
+            alt='NuAZN Lausanity.'
+          />
         </HorizontalGallery>
 
         <br></br>
