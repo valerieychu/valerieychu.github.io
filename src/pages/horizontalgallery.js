@@ -78,6 +78,34 @@ const HorizontalGallery = ({ hed, subhed, description, children }) => {
     };
   }, []);
 
+  //   Click-through arrow navigation
+  const scrollByItem = (direction) => {
+    const gallery = galleryRef.current;
+    if (!gallery) return;
+
+    const items = Array.from(gallery.children);
+    if (!items.length) return;
+
+    const currentScroll = gallery.scrollLeft;
+
+    let targetItem;
+
+    if (direction === 'next') {
+      targetItem = items.find((item) => item.offsetLeft > currentScroll + 5);
+    } else {
+      targetItem = [...items]
+        .reverse()
+        .find((item) => item.offsetLeft < currentScroll - 5);
+    }
+
+    if (targetItem) {
+      gallery.scrollTo({
+        left: targetItem.offsetLeft,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
     <div className='horizontalgallery-container'>
       <div className='horizontalgallery-content'>
@@ -87,10 +115,26 @@ const HorizontalGallery = ({ hed, subhed, description, children }) => {
       </div>
       <div className='horizontalgallery-image'>
         <div className='horizontalgallery-media-wrapper'>
+          {/* left arrow button */}
+          <button
+            className='horizontalgallery-arrow left'
+            onClick={() => scrollByItem('prev')}
+            aria-label='Scroll left'></button>
+
+          {/* media gallery */}
           <div className='horizontalgallery-media' ref={galleryRef}>
             {children}
           </div>
 
+          {/* right arrow button */}
+          <button
+            className='horizontalgallery-arrow right'
+            onClick={() => scrollByItem('next')}
+            aria-label='Scroll right'>
+            ›
+          </button>
+
+          {/* scroll indicator */}
           <div className='horizontalgallery-indicator'>
             <div
               className='horizontalgallery-indicator-fill'

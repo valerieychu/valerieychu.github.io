@@ -27,7 +27,7 @@
     height: auto;
     object-fit: cover;
     border-radius: 8px;
-    margin-top: 0; 
+    margin-top: 0;
   }
 }
 
@@ -68,7 +68,7 @@
 
   cursor: grab;
   user-select: none;
-  touch-action: pan-y; // allow vertical page scroll
+  touch-action: pan-y; // enable single-finger vertical panning
   gap: 1rem;
 
   // Hide scrollbar
@@ -81,7 +81,7 @@
 
   > * {
     flex: 0 0 auto;
-    height: 250px; // constrain height
+    height: 250px; // fixed height
     max-height: 250px;
     display: flex;
     align-items: stretch;
@@ -130,6 +130,10 @@
   transition: width 0.15s ease-out;
 }
 
+.horizontalgallery-arrow {
+  display: none; // arrows hidden by default on mobile
+}
+
 ///////////// Desktop (768px and up) /////////////
 
 @media (min-width: 768px) {
@@ -144,4 +148,42 @@
   .horizontalgallery-hed {
     font-size: 1.5rem;
   }
+}
+
+// Left and Right Naviation Arrows
+.horizontalgallery-arrow {
+  display: flex;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+
+  width: 2.5rem;
+  height: 2.5rem;
+
+  border-radius: 50%;
+  border: 1px solid #55555580;
+  background: white;
+
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+
+  align-items: center;
+  justify-content: center;
+
+  transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+.horizontalgallery-arrow:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.horizontalgallery-arrow.left {
+  left: -20px;
+}
+
+.horizontalgallery-arrow.right {
+  right: -20px;
 }
