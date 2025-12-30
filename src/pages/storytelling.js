@@ -143,46 +143,68 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
           description='Magazine. Newspaper. Corporate Events. Theater. Nature Photography. Headshots.'>
           <img
             src={cpacmusk}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='Elon Musk showcases a bejeweled chainsaw gifted by Javier Milei (right) at the Conservative Political Action Conference (CPAC) at Oxon Hill, Md., on Thursday, Feb. 20, 2025.'
           />
           <img
             src={trumpstarmer}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='President Donald Trump and British Prime Minister Keir Starmer hold a joint press conference at the White House on Feb. 27, 2025.'
           />
           <img
             src={kennedyconfirmationhearing}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='Robert F. Kennedy Jr. took questions from senators at his confirmation hearing on Jan. 29, 2025.'
           />
           <img
             src={leavittbriefing}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='White House Press Secretary Karoline Leavitt holds a press briefing on March 19, 2025.'
           />
           <img
             src={trumpeod}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='President Donald Trump signed an executive order to begin dismantling the Department of Education as students, Republican governors and conservative organizations watched.'
           />
           <img
             src={patelconfirmationhearing}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='Kash Patel, Trump’s nominee for Director of the FBI, faced questions from the Senate Judiciary Committee.'
           />
           <img
             src={nasawallops}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='NASA Goddard communications interns visited NASA Wallops.'
           />
           <img
             src={nbncover}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt="NBN cover story: Northwestern's marching band builds community and connections"
           />
           <img
             src={nuaznfeature}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='NuAZN feature story: Lessons in Alchemy.'
           />
           <img
             src={nbnbobaboom}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='NBN Boba Boom.'
           />
           <img
             src={nuaznlausanity}
+            sizes='(max-width: 768px) 90vw, 604px'
+            loading='lazy'
             alt='NuAZN Lausanity.'
           />
         </HorizontalGallery>
