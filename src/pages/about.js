@@ -40,7 +40,7 @@ const About = () => {
           style={{ marginRight: '1rem' }}
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/1rTdswpATWFARn9dJoY1XkhEQ5pAVDAkO/view?usp=sharing',
+              'https://drive.google.com/file/d/1vooLJHmrspsSqAV41m0EvvrGLoaBvWwh/view?usp=sharing',
               '_blank',
             )
           }>
@@ -50,7 +50,10 @@ const About = () => {
 
         <h2 className='h2'>Work experience, summarized</h2>
         <p className='paragraph'>
-          • (September 2025 - Present) North by Northwestern - Web Interactives
+          • (January 2026 - Present) Northwestern University - Teaching Assistant for STAT 302: Data Visualization - Evanston, Ill.
+          <br />
+          <br />
+          • (September 2022 - December 2025) North by Northwestern - Web Interactives
           Editor - Evanston, Ill.
           <br />
           <br />
