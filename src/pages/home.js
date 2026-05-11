@@ -39,7 +39,7 @@ const Home = () => {
               style={{ color: '#b76e79', fontSize: '16px' }}>
               &#9829;
             </span>{' '}
-            Data + Design + Code{' '}
+            CS + ML + Graphics{' '}
             <span
               className='heart'
               style={{ color: '#b76e79', fontSize: '16px' }}>
@@ -47,7 +47,7 @@ const Home = () => {
             </span>
           </h2>
           <h2 className='paragraph' style={{ margin: '1rem 0' }}>
-            <em>~ Creating digital products that tell a story ~</em>
+            <em>~ Ex-NASA (3x Intern), Ex-SF Chronicle ~</em>
           </h2>
         </div>
         <img className='image' src={image} alt='Image of Valerie Chu' />
@@ -57,20 +57,33 @@ const Home = () => {
       <div className='centered-text'>
         <h3 className='h3'>A Quick Intro</h3>
         <p className='paragraph'>
-          As part of NASA's Aerosciences Evaluation and Test Capabilities
-          portfolio office, I focus on tracking our wind tunnel tests. I'm
-          building a landing page that updates with real-time data
-          visualizations, issues, and highlights for NASA's twelve wind tunnels.
-          Essentially, I'm a full-stack developer/data scientist utilizing
-          software development, UI/UX, and data science skills.
+          Last summer, as a full stack data science intern in NASA's
+          Aerosciences Evaluation and Test Capabilities portfolio office, I
+          focused on tracking our wind tunnel tests. I conducted user interviews
+          with the leadership team, then wireframed, built, and deployed a
+          landing page that updates with real-time data visualizations, issues,
+          and highlights for individual tests conducted within NASA's twelve
+          wind tunnels.
+        </p>
+        <p className='paragraph'>
+          In the winter, I was a teaching assistant for Northwestern
+          University's STAT 302: Data Visualization class. Now, I'm currently
+          working on autoresearch project — combining AI and data science for
+          rapid model training in predicting next-day tech stock direction using
+          news sentiment in the media — as my senior data science capstone
+          project.
         </p>
         <p className='paragraph'>
           I'm a three-time NASA intern, a former San Francisco Chronicle digital
           design/development intern, and a former freelance Congressional and
-          White House photographer/reporter. I've loved every internship
-          experience I've had so far, and I'm currently looking for a place
-          where I can work with data to design and code digital products that
-          tell a story.
+          White House photographer/reporter. Currently, I'm actively looking for
+          CS/ML/Graphics & Vision academic year internships within the
+          aerospace, entertainment, or tech industries.
+        </p>
+        <p className='paragraph'>
+          I'm a senior at Northwestern University triple majoring in data
+          science, journalism, and international studies. In the fall, I'll be
+          starting my Master's in Computer Science (Graphics & Vision) at UCLA.
         </p>
         <div className='imageslideshowwrapper'>
           <img
