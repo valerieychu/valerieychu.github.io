@@ -39,7 +39,7 @@ const Home = () => {
               style={{ color: '#b76e79', fontSize: '16px' }}>
               &#9829;
             </span>{' '}
-            CS + ML + Graphics{' '}
+            Data + ML + Graphics{' '}
             <span
               className='heart'
               style={{ color: '#b76e79', fontSize: '16px' }}>
