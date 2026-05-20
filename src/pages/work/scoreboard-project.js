@@ -68,7 +68,7 @@ const WorksampleScoreboard = () => {
           style={{ marginRight: '1rem' }}
           onClick={() =>
             window.open(
-              'https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/',
+              'https://www.sfchronicle.com/projects/2025/warriors-timberwolves-nba-playoffs/',
               '_blank',
             )
           }>
@@ -79,7 +79,7 @@ const WorksampleScoreboard = () => {
           className='view-this-project'
           onClick={() =>
             window.open(
-              'https://www.sfchronicle.com/projects/2025/warriors-timberwolves-nba-playoffs/',
+              'https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/',
               '_blank',
             )
           }>

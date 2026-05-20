@@ -138,9 +138,9 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
         <br></br>
 
         <HorizontalGallery
-          hed='[Horizontal gallery under development] Selected Works of Photojournalism'
+          hed='Selected Works of Photojournalism'
           // subhed='Magazine Photojournalism. Newspaper Photojournalism. Corporate Events. Theater. Nature Photography. Headshots.'
-          description='Magazine. Newspaper. Corporate Events. Theater. Nature Photography. Headshots.'>
+          description='Politics | Corporate | Magazine | Breaking News | Theater | Portraits'>
           <img
             src={cpacmusk}
             sizes='(max-width: 768px) 90vw, 604px'
@@ -211,7 +211,7 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
 
         <br></br>
 
-        <img src={divider} alt='divider' className='divider' />
+        {/* <img src={divider} alt='divider' className='divider' />
 
         <p className='paragraph'>
           [This website is currently still under development. After you've
@@ -225,7 +225,7 @@ Utilized V-fold cross-validation resampling and parallel processing techniques f
             window.open('https://valerieychu.myportfolio.com/', '_blank')
           }>
           My previous website
-        </button>
+        </button> */}
       </div>
       <Footer />
     </>

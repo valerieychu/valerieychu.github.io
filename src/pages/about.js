@@ -15,7 +15,7 @@ const About = () => {
           a bit of my work! But if not, here's a quick summary:
         </p>
         <p className='paragraph'>
-          I'm a storyteller positioned at the intersection of CS, ML, and
+          I'm a storyteller positioned at the intersection of Data, ML, and
           Graphics & Vision, passionate about contributing to innovation that
           strengthens the reach of human stories.
         </p>

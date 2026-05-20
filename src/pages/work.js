@@ -23,22 +23,21 @@ const Work = () => {
             style={{ color: '#b76e79', fontSize: '16px' }}>
             &#9829;
           </span>{' '}
-          Data + Design + Code{' '}
+          Data + ML + Graphics & Vision{' '}
           <span
             className='heart'
             style={{ color: '#b76e79', fontSize: '16px' }}>
             &#9829;
           </span>
         </h2>
-        <h2 className='paragraph' style={{ margin: '1rem 0' }}>
-          <em>~ Creating digital products that tell a story ~</em>
-        </h2>
+
         <p className='paragraph'>
-          From creating designs and coding products to streamline the workflow
-          of NASA's wind tunnel facility managers, to building components and
-          adding product features that enhance one of the San Francisco
+          From wireframing and coding real-time dashboards to streamline the
+          workflow of NASA's wind tunnel facility managers, to building
+          components and adding product features to one of the San Francisco
           Chronicle's biggest investigative series of the year, my work has
-          always been about finding a way to tell a story that needs to be told.
+          always been about contributing to innovation that strengthens the
+          reach of human stories.
         </p>
 
         <p className='paragraph'>
@@ -77,7 +76,7 @@ const Work = () => {
           description='A custom scoreboard component — Inspired by old-school sports design, I designed and coded a non-developer friendly scoreboard that lets readers visually track games and scores within a photo story. Compatible with NBA, WNBA, MLB, and NFL games.'
           skills='React, Figma, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/scoreboard-project'
-          viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/'
+          viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-timberwolves-nba-playoffs/'
         />
         <ProjectCard
           videoUrl='https://www.youtube.com/embed/oPsJiwtwxb4?si=LygNLsmEO-YP3Szz'
@@ -109,7 +108,7 @@ const Work = () => {
           // viewProjectUrl='https://valerieychu.github.io/'
         />
 
-        <img src={divider} alt='divider' className='divider' />
+        {/* <img src={divider} alt='divider' className='divider' />
 
         <h3 className='h3'>A Quick Note</h3>
         <p className='paragraph'>
@@ -127,7 +126,7 @@ const Work = () => {
             window.open('https://valerieychu.myportfolio.com/', '_blank')
           }>
           My previous website
-        </button>
+        </button> */}
       </div>
       <Footer />
     </>

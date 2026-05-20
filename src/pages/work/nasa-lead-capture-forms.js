@@ -108,6 +108,18 @@ const WorksampleNASALeadCaptureForms = () => {
             alt='AETC Come Work With Us Form'
           />
         </div>
+        <div className='imageslideshowwrapper'>
+          <img
+            style={{ height: 'auto', maxWidth: '400px', margin: '1rem 0' }}
+            src={aetccometestwithus}
+            alt='AETC Come Test With Us Form'
+          />
+          <img
+            style={{ height: 'auto', maxWidth: '400px', margin: '1rem 0' }}
+            src={aetccomeworkwithus}
+            alt='AETC Come Work With Us Form'
+          />
+        </div>
       </div>
       <Footer />
     </>

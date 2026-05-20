@@ -8,7 +8,7 @@
   // positioning
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
 }
 
@@ -28,7 +28,11 @@
 }
 
 .header-name {
-  font-family: 'Amiri', 'Crimson Text', Times New Roman, serif;
+  font-family:
+    'Amiri',
+    'Crimson Text',
+    Times New Roman,
+    serif;
   font-size: 1.5rem;
   line-height: 1.5rem;
   background-color: white;
@@ -50,6 +54,8 @@
 
 .header-buttons {
   text-align: right;
+  justify-content: flex-end;
+  align-items: baseline;
   display: flex;
   gap: 1rem;
   font-size: 1.5rem;
@@ -80,7 +86,9 @@
       text-align: left;
       // border-radius: 10px;
       // border: 1px solid black;
-      transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      transition:
+        color 0.2s ease-in-out,
+        border-color 0.2s ease-in-out;
       cursor: pointer;
 
       &:hover {

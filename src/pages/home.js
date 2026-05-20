@@ -39,7 +39,7 @@ const Home = () => {
               style={{ color: '#b76e79', fontSize: '16px' }}>
               &#9829;
             </span>{' '}
-            Data + ML + Graphics{' '}
+            Data + ML + Graphics & Vision{' '}
             <span
               className='heart'
               style={{ color: '#b76e79', fontSize: '16px' }}>
@@ -77,7 +77,7 @@ const Home = () => {
           I'm a three-time NASA intern, a former San Francisco Chronicle digital
           design/development intern, and a former freelance Congressional and
           White House photographer/reporter. Currently, I'm actively looking for
-          CS/ML/Graphics & Vision academic year internships within the
+          Data/ML/Graphics & Vision academic year internships within the
           aerospace, entertainment, or tech industries.
         </p>
         <p className='paragraph'>
@@ -156,7 +156,7 @@ const Home = () => {
           description='A custom scoreboard component — Inspired by old-school sports design, I designed and coded a non-developer friendly scoreboard that lets readers visually track games and scores within a photo story. Compatible with NBA, WNBA, MLB, and NFL games.'
           skills='React, Figma, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/scoreboard-project'
-          viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-rockets-nba-playoffs/'
+          viewProjectUrl='https://www.sfchronicle.com/projects/2025/warriors-timberwolves-nba-playoffs/'
         />
         <ProjectCard
           videoUrl='https://www.youtube.com/embed/oPsJiwtwxb4?si=LygNLsmEO-YP3Szz'
@@ -189,7 +189,7 @@ const Home = () => {
         />
       </div>
 
-      <img src={divider} alt='divider' className='divider' />
+      {/* <img src={divider} alt='divider' className='divider' />
       <div className='centered-text'>
         <h3 className='h3'>A Quick Note</h3>
         <p className='paragraph'>
@@ -209,9 +209,7 @@ const Home = () => {
           }>
           My previous website
         </button>
-      </div>
-
-      {/* <img src={divider} alt='divider' className='divider' /> */}
+      </div> */}
     </>
   );
 };
