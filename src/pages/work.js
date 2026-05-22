@@ -9,6 +9,7 @@ import aetchome from '../images/aetchome.png';
 import sfchroniclehome from '../images/sfchroniclehome.png';
 import valeriemirror from '../images/valeriechumirror.jpg';
 import valeriesfchronicle from '../images/valeriesfchronicle.jpeg';
+import thewrongstalker from '../images/thewrongstalker.png';
 
 const Work = () => {
   return (
@@ -59,14 +60,14 @@ const Work = () => {
           // viewProjectUrl='https://www.nasa.gov/directorates/armd/aetc/'
         />
         <ProjectCard
-          image={sfchroniclehome}
+          image={thewrongstalker}
           alt='San Francisco Chronicle home page'
           hed='Investigative Series'
           subhed='San Francisco Chronicle'
-          description='One of the Chronicle’s biggest investigative series this year, to be published later in 2025 — I led the product design and development for this series. With 30,000+ words and five parts, I knew the reader experience was crucial to get right. I designed, wireframed, and coded this series, creating custom components such as text message animations and bookmarking features.'
+          description='One of the Chronicle’s biggest investigative series this year, to be published later in 2025 — I led the product design and development for this series. With 12,000+ words and eight chapters, I knew the reader experience was crucial to get right. I designed, wireframed, and coded this series, creating custom components such as text message animations and bookmarking features.'
           skills='React, Figma, GSAP, Illustrator, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/stalker-project'
-          // viewProjectUrl='https://sfchronicle.com/'
+          viewProjectUrl='https://www.sfchronicle.com/projects/2026/the-wrong-stalker/?utm_source=marketing&utm_medium=copy-url-link&utm_campaign=article-share&hash=aHR0cHM6Ly93d3cuc2ZjaHJvbmljbGUuY29tL3Byb2plY3RzLzIwMjYvdGhlLXdyb25nLXN0YWxrZXIv&time=MTc3OTQzOTk1OTIxMw==&rid=NmRmODQ5YTgtNDE3Mi00ZWQ4LTg0ZmEtYjkwNjYxZjUyNDU4&sharecount=MQ=='
         />
         <ProjectCard
           videoSrc='/scoreboard-component.mp4'
