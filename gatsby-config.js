@@ -4,14 +4,14 @@
 module.exports = {
   siteMetadata: {
     title: `Valerie Chu Portfolio`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://valerieychu.github.io`,
   },
   plugins: [
     {
       resolve: "gatsby-plugin-google-gtag",
       options: {
         trackingIds: [
-          "G-NVTZCHS43M", 
+          "G-8NVWK0K97P", 
         ],
         pluginConfig: {
           head: true,
