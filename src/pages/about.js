@@ -35,7 +35,7 @@ const About = () => {
           style={{ marginRight: '1rem' }}
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/15OZSFqpkEKX2hOAAELAsPVKATEFo8op3/view?usp=sharing',
+              'https://drive.google.com/file/d/1UBS166lc3CHjuKIKqn4n8g8voVh-gCoP/view',
               '_blank',
             )
           }>
