@@ -21,6 +21,8 @@ import aetccwwuform from '../images/aetccwwuform.png';
 import sfchroniclehome from '../images/sfchroniclehome.png';
 import aetchome from '../images/aetchome.png';
 import thewrongstalker from '../images/thewrongstalker.png';
+import m7newssentiment from '../images/m7newssentiment.png';
+import flickr8k from '../images/flickr8k.png';
 
 const Home = () => {
   return (
@@ -32,7 +34,7 @@ const Home = () => {
       <div className='intro'>
         <div className='centered-text'>
           <h1 className='h1' style={{ marginBottom: '1rem' }}>
-            Hi! I'm Valerie and I love storytelling.
+            Hi! I'm Valerie.
           </h1>
           <h2 className='h2'>
             <span
@@ -40,7 +42,7 @@ const Home = () => {
               style={{ color: '#b76e79', fontSize: '16px' }}>
               &#9829;
             </span>{' '}
-            Data + ML + Graphics & Vision{' '}
+            Data + AI/ML + Graphics/Vision{' '}
             <span
               className='heart'
               style={{ color: '#b76e79', fontSize: '16px' }}>
@@ -48,7 +50,7 @@ const Home = () => {
             </span>
           </h2>
           <h2 className='paragraph' style={{ margin: '1rem 0' }}>
-            <em>~ Ex-NASA (3x Intern), Ex-SF Chronicle ~</em>
+            <em>~ NASA Intern 3x, SF Chronicle Intern ~</em>
           </h2>
         </div>
         <img className='image' src={image} alt='Image of Valerie Chu' />
@@ -64,27 +66,36 @@ const Home = () => {
           with the leadership team, then wireframed, built, and deployed a
           landing page that updates with real-time data visualizations, issues,
           and highlights for individual tests conducted within NASA's twelve
-          wind tunnels.
+          wind tunnels, solving a persistent data silo issue for the leadership
+          team which adopted my landing page into its daily workflow.
         </p>
         <p className='paragraph'>
           In the winter, I was a teaching assistant for Northwestern
-          University's STAT 302: Data Visualization class. Now, I'm currently
-          working on autoresearch project — combining AI and data science for
-          rapid model training in predicting next-day tech stock direction using
-          news sentiment in the media — as my senior data science capstone
-          project.
+          University's STAT 302: Data Visualization class. In the spring, I
+          completed two projects. The first was an autoresearch project built
+          upon a custom dataset I made through using BigQuery to pull news
+          sentiment data on a massive scale and join it with yfinance data, upon
+          which I used Claude as an agentic AI to enable rapid hyperparameter
+          tuning and ML model evaluation to predict next-day tech stock
+          direction using news sentiment. In the second project, I built and
+          compared three image captioning approaches using images on Flickr — a
+          ResNet-50 + KNN retrieval baseline, a CNN + LSTM encoder-decoder, and
+          a fine-tuned GIT transformer — to benchmark generative captioning
+          against retrieval and evaluate BLEU across architectures.
         </p>
         <p className='paragraph'>
           I'm a three-time NASA intern, a former San Francisco Chronicle digital
           design/development intern, and a former freelance Congressional and
           White House photographer/reporter. Currently, I'm actively looking for
-          Data/ML/Graphics & Vision academic year internships within the
-          aerospace, entertainment, or tech industries.
+          software engineering, machine learning, or visual computing
+          internships (both academic and summer) within the aerospace,
+          entertainment, or tech industries.
         </p>
         <p className='paragraph'>
-          I'm a senior at Northwestern University triple majoring in data
-          science, journalism, and international studies. In the fall, I'll be
-          starting my Master's in Computer Science (Graphics & Vision) at UCLA.
+          I recently graduated cum laude from Northwestern University with a
+          triple major in data science, journalism, and international studies.
+          This fall, I'm starting my Master's in Computer Science at UCLA, where
+          I aim to focus on machine learning and visual computing.
         </p>
         <div className='imageslideshowwrapper'>
           <img
@@ -148,6 +159,24 @@ const Home = () => {
           skills='React, Figma, GSAP, Illustrator, ArchieML, HTML, CSS, JavaScript'
           learnMoreUrl='/work/stalker-project'
           viewProjectUrl='https://www.sfchronicle.com/projects/2026/the-wrong-stalker/?utm_source=marketing&utm_medium=copy-url-link&utm_campaign=article-share&hash=aHR0cHM6Ly93d3cuc2ZjaHJvbmljbGUuY29tL3Byb2plY3RzLzIwMjYvdGhlLXdyb25nLXN0YWxrZXIv&time=MTc3OTQzOTk1OTIxMw==&rid=NmRmODQ5YTgtNDE3Mi00ZWQ4LTg0ZmEtYjkwNjYxZjUyNDU4&sharecount=MQ=='
+        />
+        <ProjectCard
+          image={m7newssentiment}
+          alt='A presentation slide from this project'
+          hed='Agentic AI for Rapid ML Model Tuning'
+          subhed='Northwestern University'
+          description='Applying autoresearch to predict next-day stock price direction using news sentiment — Created a custom dataset with BigQuery through joining news sentiment and yfinance data, then built an agentic workflow using Claude to enable rapid hyperparameter tuning and ML model evaluation, ultimately producing a reproducible negative result. Conducted feature engineering, ablation testing, failure analysis, and stability checks.'
+          skills='Machine learning, BigQuery, Claude as an AI agent, Data wrangling'
+          viewProjectUrl='https://github.com/valerieychu/m7-news-sentiment'
+        />
+        <ProjectCard
+          image={flickr8k}
+          alt='A screenshot of the Flickr8k dataset on Kaggle'
+          hed='Image Captioning on a Real-World Dataset'
+          subhed='Northwestern University'
+          description='Compared a ResNet-50 + KNN retrieval baseline, a CNN + LSTM encoder-decoder, and a fine-tuned GIT transformer to examine how each design choice — feature representation, language modeling strategy, and scale of pretraining — affects image caption quality, as measured by BLEU scores.'
+          skills='TensorFlow, Machine learning, Deep learning, Image captioning'
+          viewProjectUrl='https://github.com/valerieychu/flickr8k-image-captioning'
         />
         <ProjectCard
           videoSrc='/scoreboard-component.mp4'

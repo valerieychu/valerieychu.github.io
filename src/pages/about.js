@@ -15,16 +15,19 @@ const About = () => {
           a bit of my work! But if not, here's a quick summary:
         </p>
         <p className='paragraph'>
-          I'm a storyteller positioned at the intersection of Data, ML, and
-          Graphics & Vision, passionate about contributing to innovation that
-          strengthens the reach of human stories.
+          I'm a former data journalist who never lost the skill of telling a
+          good story. After one design & development internship with
+          the San Francisco Chronicle, and two internships on NASA's wind
+          tunnel's data & analytics team, I know how to build products that
+          work. With skills at the intersection of Data, AI/ML, and
+          Graphics/Vision, I hope to contributing to innovation that strengthens
+          the reach of human stories.
         </p>
         <p className='paragraph'>
-          I've interned at NASA, the San Francisco Chronicle, and several other
-          places. Currently, I'm a senior at Northwestern University triple
-          majoring in data science, journalism, and international studies. In
-          the fall, I'll be starting my Master's in Computer Science (Graphics &
-          Vision) at UCLA.
+          I recently graduated cum laude from Northwestern University with a
+          triple major in data science, journalism, and international studies.
+          This fall, I'm starting my Master's in Computer Science at UCLA, where
+          I aim to focus on machine learning and visual computing.
         </p>
         <p className='paragraph'>
           In my free time, I love reading, playing cello, taking photographs of
@@ -35,7 +38,7 @@ const About = () => {
           style={{ marginRight: '1rem' }}
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/1UBS166lc3CHjuKIKqn4n8g8voVh-gCoP/view',
+              'https://drive.google.com/file/d/1K6tXK1Wytwbr4OYOYWZS4pWy82Gjq_3F/view',
               '_blank',
             )
           }>
@@ -44,10 +47,12 @@ const About = () => {
         <img src={divider} alt='divider' className='divider' />
         <h2 className='h2'>Work experience, summarized</h2>
         <p className='paragraph'>
-          • (March 2026 - Present) Northwestern University - Senior data science
-          capstone project (AI/ML) on applying autoresearch to predict next-day
-          tech stock direction using news sentiment in the media - Evanston,
-          Ill.
+          • (March 2026 - June 2026) Northwestern University - Deep learning
+          project: Image captioning on a real-world dataset - Evanston, Ill.
+          <br />
+          <br />
+          • (March 2026 - June 2026) Northwestern University - Autoresearch
+          project: Agentic AI for rapid ML model tuning - Evanston, Ill.
           <br />
           <br />
           • (January 2026 - March 2026) Northwestern University - Teaching
