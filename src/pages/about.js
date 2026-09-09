@@ -15,13 +15,13 @@ const About = () => {
           a bit of my work! But if not, here's a quick summary:
         </p>
         <p className='paragraph'>
-          I'm a former data journalist who never lost the skill of telling a
-          good story. After one design & development internship with
-          the San Francisco Chronicle, and two internships on NASA's wind
-          tunnel's data & analytics team, I know how to build products that
+          I'm a former data graphics journalist who never lost the skill of
+          telling compelling stories. After one design & development internship
+          with the San Francisco Chronicle, and two internships on NASA's wind
+          tunnel's data & analytics team, I also know how to build products that
           work. With skills at the intersection of Data, AI/ML, and
-          Graphics/Vision, I hope to contributing to innovation that strengthens
-          the reach of human stories.
+          Graphics/Vision, I hope to continue contributing to innovation that
+          strengthens the reach of human stories.
         </p>
         <p className='paragraph'>
           I recently graduated cum laude from Northwestern University with a
