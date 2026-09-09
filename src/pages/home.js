@@ -177,6 +177,7 @@ const Home = () => {
           subhed='Northwestern University'
           description='Compared a ResNet-50 + KNN retrieval baseline, a CNN + LSTM encoder-decoder, and a fine-tuned GIT transformer to examine how each design choice — feature representation, language modeling strategy, and scale of pretraining — affects image caption quality, as measured by BLEU scores.'
           skills='TensorFlow, Machine learning, Deep learning, Image captioning'
+          learnMoreUrl='/work/image-captioning-project'
           viewProjectUrl='https://github.com/valerieychu/flickr8k-image-captioning'
         />
         <ProjectCard
