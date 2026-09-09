@@ -22,6 +22,9 @@ const Header = () => {
             <button onClick={() => navigate('/work/stalker-project')}>
               Investigative Series
             </button>
+            <button onClick={() => navigate('/work/autoresearch-project')}>
+              Autoresearch Project
+            </button>
             <button onClick={() => navigate('/work/scoreboard-project')}>
               Scoreboard Project
             </button>

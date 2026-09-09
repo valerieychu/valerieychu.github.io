@@ -167,6 +167,7 @@ const Home = () => {
           subhed='Northwestern University'
           description='Applying autoresearch to predict next-day stock price direction using news sentiment — Created a custom dataset with BigQuery through joining news sentiment and yfinance data, then built an agentic workflow using Claude to enable rapid hyperparameter tuning and ML model evaluation, ultimately producing a reproducible negative result. Conducted feature engineering, ablation testing, failure analysis, and stability checks.'
           skills='Machine learning, BigQuery, Claude as an AI agent, Data wrangling'
+          learnMoreUrl='/work/autoresearch-project'
           viewProjectUrl='https://github.com/valerieychu/m7-news-sentiment'
         />
         <ProjectCard
