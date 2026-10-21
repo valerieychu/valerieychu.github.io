@@ -15,19 +15,26 @@ const About = () => {
           a bit of my work! But if not, here's a quick summary:
         </p>
         <p className='paragraph'>
-          I'm a former data graphics journalist who never lost the skill of
-          telling compelling stories. After one design & development internship
-          with the San Francisco Chronicle, and two internships on NASA's wind
-          tunnel's data & analytics team, I also know how to build products that
-          work. With skills at the intersection of Data, AI/ML, and
-          Graphics/Vision, I hope to continue contributing to innovation that
-          strengthens the reach of human stories.
+          I'm a{' '}
+          <span style={{ color: '#b76e79' }}>
+            former data graphics journalist
+          </span>{' '}
+          turned{' '}
+          <span style={{ color: '#b76e79' }}>
+            machine learning engineer and product thinker
+          </span>{' '}
+          who never lost the skill of telling compelling stories. After one
+          design & development internship with the San Francisco Chronicle and
+          two internships on NASA's wind tunnel's data & analytics team, I've
+          conceptualized, coded, and deployed multiple products that work for
+          people and teams. With skills at the intersection of Data, AI/ML, and
+          HCI, I hope to continue working on projects that help people.
         </p>
         <p className='paragraph'>
           I recently graduated cum laude from Northwestern University with a
           triple major in data science, journalism, and international studies.
           This fall, I'm starting my Master's in Computer Science at UCLA, where
-          I aim to focus on machine learning and visual computing.
+          I'm specializing in machine learning and human-computer interaction.
         </p>
         <p className='paragraph'>
           In my free time, I love reading, playing cello, taking photographs of
@@ -38,12 +45,78 @@ const About = () => {
           style={{ marginRight: '1rem' }}
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/1K6tXK1Wytwbr4OYOYWZS4pWy82Gjq_3F/view',
+              'https://drive.google.com/file/d/1-Ley-iuZ1OuXUfQxspxgrEEYkYkqBx--/view',
               '_blank',
             )
           }>
           View my resume
         </button>
+        <img src={divider} alt='divider' className='divider' />
+        <h2 className='h2'>Relevant courses</h2>
+        <p className='paragraph'>
+          <b>
+            <span style={{ textDecoration: 'underline' }}>UCLA Courses</span>
+          </b>
+          <br />
+          • Large-Scale Machine Learning
+          <br />
+          • Neural Networks and Deep Learning
+          <br />
+          • Computational Ethics and Large Language Models
+          <br />
+          • Current Topics in AI: Communication with Computers
+          <br />
+          <br />
+          <b>
+            <span style={{ textDecoration: 'underline' }}>
+              Northwestern Courses (a selection)
+            </span>
+          </b>
+          <br /><i>Data Science and Computer Science</i>
+          <br />• Advanced Machine Learning (with Python) 
+          <br />• Data Structures and Algorithms 
+          <br />• Data Visualization
+          <br />• Information Management (with SQL)
+          <br />• Data Science 1, 2, 3 (with R)
+          <br /><i>Mathematics and Statistics</i>
+          <br />• Linear Algebra
+          <br />• Multivariable Differential Calculus
+          <br />• Statistical Theories and Methods 1 & 2
+          <br />• Series and Multiple Integrals
+          <br /><i>Journalism</i>
+          <br />• Knight Lab Studio: AI Video Automation for
+          Journalism
+          <br />• Data Journalism
+          <br />• Court Watchers: The Legal Beat
+          <br />• Media Law & Ethics
+          <br />• Government and National Policy Reporting: Mastering the Washington Beat
+          <br />• Covering Washington, D.C. as a Real-Time Journalist
+          <br />• How To Be a Government Watchdog
+          <br />• Fundamentals of Video Journalism
+          <br />• Fundamentals of Reporting and Writing
+          <br />• Media History: Watergate's Legacy: The Press and the Presidency
+          <br /><i>Design</i>
+          <br />• Design Thinking and Doing
+          <br />• Wireframing and App Design
+          <br />• Rendering (with Vizcom and Keyshot)
+          <br /><i>Fun Courses</i>
+          <br />• Introduction to the Philosophy of Language
+          <br />• Advanced Spanish I & II
+          <br />• Pirates, Guns, and Empires
+          <br />
+          <br />
+          <b>
+            <span style={{ textDecoration: 'underline' }}>
+              Universitat de Barcelona Courses
+            </span>
+          </b>
+          <br /><i>Semester abroad | All classes fully taught in Spanish alongside local students at Spain’s top university | GPA: 9.48/10</i>
+          <br />• Sociología del futuro (10/10, Matrícula de Honor, 1st in the class)
+          <br />• Antropología del turismo (9.5/10, 3rd in the class)
+          <br />• Diseño y edición de productos multimedia (8.8/10)
+          <br />• Propedéutico de lengua y cultura (9.2/10, a Catalan language course)
+          <br />• Picasso, Miró & Dalí (9.9/10)
+        </p>
         <img src={divider} alt='divider' className='divider' />
         <h2 className='h2'>Work experience, summarized</h2>
         <p className='paragraph'>

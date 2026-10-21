@@ -42,7 +42,7 @@ const Home = () => {
               style={{ color: '#b76e79', fontSize: '16px' }}>
               &#9829;
             </span>{' '}
-            Data + AI/ML + Graphics/Vision{' '}
+            Data + AI/ML + Product{' '}
             <span
               className='heart'
               style={{ color: '#b76e79', fontSize: '16px' }}>
@@ -70,6 +70,15 @@ const Home = () => {
           team which adopted my landing page into its daily workflow.
         </p>
         <p className='paragraph'>
+          Before that, I was a digital design and front end development intern
+          at the San Francisco Chronicle, where I conceptualized, designed, and
+          coded key animations and bookmarking features to enhance the user
+          experience for a major investigative story. I also had the chance to
+          code custom reusable scoreboard components for NBA/MLB/NFL games and
+          adapt video components from an existing codebase to a new project
+          template under breaking news deadline.
+        </p>
+        <p className='paragraph'>
           In the winter, I was a teaching assistant for Northwestern
           University's STAT 302: Data Visualization class. In the spring, I
           completed two projects. The first was an autoresearch project built
@@ -87,15 +96,16 @@ const Home = () => {
           I'm a three-time NASA intern, a former San Francisco Chronicle digital
           design/development intern, and a former freelance Congressional and
           White House photographer/reporter. Currently, I'm actively looking for
-          software engineering, machine learning, or visual computing
-          internships (both academic and summer) within the aerospace,
+          technical product management, machine learning engineering, or data
+          science internships (both academic and summer) within the aerospace,
           entertainment, or tech industries.
         </p>
         <p className='paragraph'>
           I recently graduated cum laude from Northwestern University with a
           triple major in data science, journalism, and international studies.
-          This fall, I'm starting my Master's in Computer Science at UCLA, where
-          I aim to focus on machine learning and visual computing.
+          This fall, I started my Master's in Computer Science at UCLA (spring
+          2028 graduation), where I'm specializing in machine learning and
+          human-computer interaction.
         </p>
         <div className='imageslideshowwrapper'>
           <img
