@@ -54,7 +54,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-              href='mailto:valeriechu2026@u.northwestern.edu?subject=Hello!&body=Hi%20Valerie,'
+              href='mailto:valerieychu@gmail.com?subject=Hello!&body=Hi%20Valerie,'
               aria-label='Email'>
               <FaEnvelope />
             </a>
